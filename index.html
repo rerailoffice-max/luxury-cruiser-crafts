@@ -1,0 +1,1262 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Cruiser x Japanese Traditional Crafts</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --gold: #C9A962;
+            --gold-light: #E8D5A3;
+            --black: #1a1a1a;
+            --dark-gray: #2d2d2d;
+            --light-gray: #f5f5f5;
+            --white: #ffffff;
+            --accent: #8B0000;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+            background-color: var(--black);
+            color: var(--white);
+            line-height: 1.8;
+        }
+
+        /* Hero Section */
+        .hero {
+            height: 100vh;
+            background: linear-gradient(135deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 100%),
+                        url('https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?w=1920') center/cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative;
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 4rem;
+            font-weight: 300;
+            letter-spacing: 0.2em;
+            margin-bottom: 1rem;
+            color: var(--gold);
+        }
+
+        .hero .subtitle {
+            font-size: 1.2rem;
+            letter-spacing: 0.3em;
+            color: var(--gold-light);
+            margin-bottom: 2rem;
+        }
+
+        .hero .tagline {
+            font-size: 1.5rem;
+            font-weight: 300;
+            max-width: 800px;
+            padding: 0 2rem;
+        }
+
+        .scroll-indicator {
+            position: absolute;
+            bottom: 2rem;
+            animation: bounce 2s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(10px); }
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(26, 26, 26, 0.95);
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+            padding: 1rem 0;
+            border-bottom: 1px solid var(--gold);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            gap: 3rem;
+            list-style: none;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: var(--gold-light);
+            text-decoration: none;
+            font-size: 0.9rem;
+            letter-spacing: 0.1em;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: var(--gold);
+        }
+
+        /* Sections */
+        section {
+            padding: 6rem 2rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            color: var(--gold);
+            text-align: center;
+            margin-bottom: 1rem;
+            letter-spacing: 0.1em;
+        }
+
+        .section-subtitle {
+            text-align: center;
+            color: var(--gold-light);
+            margin-bottom: 4rem;
+            font-size: 1rem;
+            letter-spacing: 0.2em;
+        }
+
+        /* Trend Cards */
+        .trend-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+        }
+
+        .trend-card {
+            background: var(--dark-gray);
+            border: 1px solid rgba(201, 169, 98, 0.3);
+            padding: 2rem;
+            transition: transform 0.3s, border-color 0.3s;
+        }
+
+        .trend-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--gold);
+        }
+
+        .trend-card h3 {
+            color: var(--gold);
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+        }
+
+        .trend-card p {
+            color: #ccc;
+            margin-bottom: 1rem;
+        }
+
+        .compatibility {
+            display: inline-block;
+            background: var(--gold);
+            color: var(--black);
+            padding: 0.3rem 1rem;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+
+        /* Case Studies */
+        .case-study {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            margin-bottom: 4rem;
+            align-items: center;
+        }
+
+        .case-study:nth-child(even) {
+            direction: rtl;
+        }
+
+        .case-study:nth-child(even) > * {
+            direction: ltr;
+        }
+
+        .case-study-image {
+            aspect-ratio: 16/10;
+            background-size: cover;
+            background-position: center;
+            border: 1px solid var(--gold);
+        }
+
+        .case-study-content h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            color: var(--gold);
+            margin-bottom: 1rem;
+        }
+
+        .case-study-content .owner {
+            color: var(--gold-light);
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+
+        .case-study-content ul {
+            list-style: none;
+            margin: 1.5rem 0;
+        }
+
+        .case-study-content li {
+            padding: 0.5rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        .case-study-content li::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 50%;
+            width: 8px;
+            height: 1px;
+            background: var(--gold);
+        }
+
+        .link-btn {
+            display: inline-block;
+            border: 1px solid var(--gold);
+            color: var(--gold);
+            padding: 0.8rem 2rem;
+            text-decoration: none;
+            font-size: 0.9rem;
+            letter-spacing: 0.1em;
+            transition: all 0.3s;
+        }
+
+        .link-btn:hover {
+            background: var(--gold);
+            color: var(--black);
+        }
+
+        /* Craft Categories */
+        .craft-category {
+            margin-bottom: 4rem;
+        }
+
+        .craft-category h3 {
+            font-size: 1.5rem;
+            color: var(--gold);
+            margin-bottom: 2rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid rgba(201, 169, 98, 0.3);
+        }
+
+        .craft-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 2rem;
+        }
+
+        .craft-card {
+            background: var(--dark-gray);
+            border: 1px solid rgba(201, 169, 98, 0.2);
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+
+        .craft-card:hover {
+            transform: scale(1.02);
+        }
+
+        .craft-card-header {
+            padding: 1.5rem;
+            border-bottom: 1px solid rgba(201, 169, 98, 0.2);
+        }
+
+        .craft-card-header h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            color: var(--gold);
+        }
+
+        .craft-card-header .english {
+            color: var(--gold-light);
+            font-size: 0.9rem;
+            margin-top: 0.3rem;
+        }
+
+        .craft-card-body {
+            padding: 1.5rem;
+        }
+
+        .craft-info {
+            display: grid;
+            grid-template-columns: auto 1fr;
+            gap: 0.5rem 1rem;
+            margin-bottom: 1.5rem;
+            font-size: 0.95rem;
+        }
+
+        .craft-info dt {
+            color: var(--gold-light);
+        }
+
+        .craft-info dd {
+            color: #ccc;
+        }
+
+        .craft-features {
+            background: rgba(201, 169, 98, 0.1);
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .craft-features h5 {
+            color: var(--gold);
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+        }
+
+        .craft-features p {
+            color: #ccc;
+            font-size: 0.9rem;
+        }
+
+        .craft-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .craft-links a {
+            display: inline-block;
+            background: rgba(201, 169, 98, 0.2);
+            color: var(--gold-light);
+            padding: 0.4rem 0.8rem;
+            text-decoration: none;
+            font-size: 0.8rem;
+            transition: background 0.3s;
+        }
+
+        .craft-links a:hover {
+            background: var(--gold);
+            color: var(--black);
+        }
+
+        /* Concept Section */
+        .concept-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .concept-card {
+            background: linear-gradient(180deg, var(--dark-gray) 0%, rgba(45,45,45,0.5) 100%);
+            border: 1px solid var(--gold);
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .concept-card h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            color: var(--gold);
+            margin-bottom: 0.5rem;
+        }
+
+        .concept-card .english {
+            color: var(--gold-light);
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+
+        .concept-card .target {
+            background: var(--accent);
+            color: var(--white);
+            padding: 0.3rem 1rem;
+            display: inline-block;
+            font-size: 0.85rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .concept-items {
+            text-align: left;
+        }
+
+        .concept-items .item {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.8rem 0;
+            border-bottom: 1px solid rgba(201, 169, 98, 0.2);
+        }
+
+        .concept-items .item:last-child {
+            border-bottom: none;
+        }
+
+        .concept-items .location {
+            color: var(--gold-light);
+        }
+
+        .concept-items .craft {
+            color: #ccc;
+        }
+
+        /* Brand Showcase */
+        .brand-showcase {
+            background: var(--dark-gray);
+            padding: 3rem;
+            margin: 4rem 0;
+            text-align: center;
+        }
+
+        .brand-showcase h4 {
+            color: var(--gold);
+            margin-bottom: 2rem;
+            font-size: 1.2rem;
+            letter-spacing: 0.2em;
+        }
+
+        .brand-logos {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 4rem;
+            flex-wrap: wrap;
+            font-size: 1.5rem;
+            color: var(--gold-light);
+            font-family: 'Playfair Display', serif;
+            letter-spacing: 0.1em;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--dark-gray);
+            padding: 4rem 2rem;
+            text-align: center;
+            border-top: 1px solid var(--gold);
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+            margin-bottom: 2rem;
+        }
+
+        .footer-links a {
+            color: var(--gold-light);
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+
+        .footer-links a:hover {
+            color: var(--gold);
+        }
+
+        .copyright {
+            color: #666;
+            font-size: 0.85rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .case-study {
+                grid-template-columns: 1fr;
+            }
+
+            .case-study:nth-child(even) {
+                direction: ltr;
+            }
+
+            nav ul {
+                gap: 1rem;
+                padding: 0 1rem;
+            }
+
+            nav a {
+                font-size: 0.8rem;
+            }
+
+            .craft-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .section-title {
+                font-size: 1.8rem;
+            }
+        }
+
+        /* Scroll Animation */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.8s, transform 0.8s;
+        }
+
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Table Styles */
+        .info-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 2rem 0;
+        }
+
+        .info-table th,
+        .info-table td {
+            padding: 1rem;
+            text-align: left;
+            border-bottom: 1px solid rgba(201, 169, 98, 0.2);
+        }
+
+        .info-table th {
+            color: var(--gold);
+            font-weight: 500;
+            background: rgba(201, 169, 98, 0.1);
+        }
+
+        .info-table td {
+            color: #ccc;
+        }
+
+        .highlight {
+            color: var(--gold);
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#trends">TRENDS</a></li>
+            <li><a href="#cases">CASE STUDIES</a></li>
+            <li><a href="#crafts">CRAFTS CATALOG</a></li>
+            <li><a href="#concepts">CONCEPTS</a></li>
+            <li><a href="#business">BUSINESS INFO</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <h1>LUXURY CRUISER</h1>
+        <p class="subtitle">JAPANESE TRADITIONAL CRAFTS</p>
+        <p class="tagline">
+            Hermesの代わりに、日本の伝統工芸で彩る唯一無二のクルーザー。<br>
+            世界の富裕層に、日本の職人技を届ける。
+        </p>
+        <div class="scroll-indicator">
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none">
+                <path d="M15 5 L15 25 M8 18 L15 25 L22 18" stroke="#C9A962" stroke-width="2"/>
+            </svg>
+        </div>
+    </header>
+
+    <!-- Trends Section -->
+    <section id="trends">
+        <h2 class="section-title">INTERIOR TRENDS 2024-2025</h2>
+        <p class="section-subtitle">WHAT WEALTHY YACHT OWNERS ARE LOOKING FOR</p>
+
+        <div class="trend-grid fade-in">
+            <div class="trend-card">
+                <h3>Personalization</h3>
+                <p>既製品ではなく、オーナーの個性を反映した唯一無二のデザイン。大量生産への反発と個性の追求。</p>
+                <span class="compatibility">伝統工芸との親和性：極めて高い</span>
+            </div>
+            <div class="trend-card">
+                <h3>Zen & Wellness</h3>
+                <p>瞑想、ヨガスペース、心の平穏を重視。スパ、サウナ、浄化された空気。精神的な豊かさへの回帰。</p>
+                <span class="compatibility">伝統工芸との親和性：極めて高い</span>
+            </div>
+            <div class="trend-card">
+                <h3>Sustainability</h3>
+                <p>責任ある素材調達、天然素材の使用。再生木材、リサイクル金属、無毒性仕上げ材への志向。</p>
+                <span class="compatibility">伝統工芸との親和性：高い</span>
+            </div>
+            <div class="trend-card">
+                <h3>Warm Color Palette</h3>
+                <p>ディープブラウン、オークル、バーガンディ。落ち着いた暖色系トーンで包み込むような空間へ。</p>
+                <span class="compatibility">伝統工芸との親和性：高い</span>
+            </div>
+            <div class="trend-card">
+                <h3>Textured Ceilings</h3>
+                <p>天井を単なる天井で終わらせない。視覚的興味を高める立体的・装飾的なデザイン。</p>
+                <span class="compatibility">伝統工芸との親和性：高い</span>
+            </div>
+            <div class="trend-card">
+                <h3>Natural Materials</h3>
+                <p>天然木、レザー、大理石。本物の素材が持つ質感と経年変化を楽しむ価値観。</p>
+                <span class="compatibility">伝統工芸との親和性：高い</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Studies -->
+    <section id="cases">
+        <h2 class="section-title">CASE STUDIES</h2>
+        <p class="section-subtitle">WEALTHY OWNERS WHO LOVE JAPANESE DESIGN</p>
+
+        <div class="case-study fade-in">
+            <div class="case-study-image" style="background-image: url('https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800')"></div>
+            <div class="case-study-content">
+                <h3>Feadship "ZEN"</h3>
+                <p class="owner">88m / $200M - Owner: Wu Guangming (Chinese Entrepreneur)</p>
+                <ul>
+                    <li>コンセプト：瞑想、調和、リラックス、ミニマリズム</li>
+                    <li>ナチュラル素材、暖色系、間接照明を採用</li>
+                    <li>Sinot設計による禅哲学を体現した空間</li>
+                </ul>
+                <a href="https://sinot.com/zen/" target="_blank" class="link-btn">VIEW DETAILS</a>
+            </div>
+        </div>
+
+        <div class="case-study fade-in">
+            <div class="case-study-image" style="background-image: url('https://images.unsplash.com/photo-1540946485063-a40da27545f8?w=800')"></div>
+            <div class="case-study-content">
+                <h3>"Kensho" (見性 = Enlightenment)</h3>
+                <p class="owner">Jouin Manku Design - Asian-Influenced Interior</p>
+                <ul>
+                    <li>日本語で「悟り」を意味する名称</li>
+                    <li>チーク材、シルク、レザーのソフトな色調</li>
+                    <li>「光に包まれる」間接照明設計</li>
+                </ul>
+                <a href="https://interiordesign.net/projects/jouin-mankus-kensho-super-yacht/" target="_blank" class="link-btn">VIEW DETAILS</a>
+            </div>
+        </div>
+
+        <div class="case-study fade-in">
+            <div class="case-study-image" style="background-image: url('https://images.unsplash.com/photo-1569263979104-865ab7cd8d13?w=800')"></div>
+            <div class="case-study-content">
+                <h3>Larry Ellison "Musashi"</h3>
+                <p class="owner">288ft - Oracle Co-founder</p>
+                <ul>
+                    <li>日本デザインにインスパイアされた巨大ヨット</li>
+                    <li>Zen風インテリア、寿司バー完備</li>
+                    <li>所有ヨット全てに日本風の名前（Ronin, Rising Sun等）</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Crafts Catalog -->
+    <section id="crafts">
+        <h2 class="section-title">JAPANESE CRAFTS CATALOG</h2>
+        <p class="section-subtitle">15 TRADITIONAL CRAFTS FOR LUXURY INTERIORS</p>
+
+        <!-- Wall & Panel -->
+        <div class="craft-category fade-in">
+            <h3>A. Wall & Panel Decoration / 壁面・パネル装飾</h3>
+            <div class="craft-grid">
+                <div class="craft-card">
+                    <div class="craft-card-header">
+                        <h4>金沢箔</h4>
+                        <p class="english">Kanazawa Gold Leaf</p>
+                    </div>
+                    <div class="craft-card-body">
+                        <dl class="craft-info">
+                            <dt>産地</dt><dd>石川県金沢市</dd>
+                            <dt>歴史</dt><dd>400年以上</dd>
+                            <dt>シェア</dt><dd class="highlight">国内99%以上</dd>
+                        </dl>
+                        <div class="craft-features">
+                            <h5>採用実績</h5>
+                            <p>LEXUS LS、ハイアットセントリック金沢、東京スカイツリー展望台、東急プラザ銀座</p>
+                        </div>
+                        <div class="craft-links">
+                            <a href="https://www.hakuichi.co.jp/service/construction/achievements/" target="_blank">施工実績</a>
+                            <a href="https://hakuichi.jp/products/list.php?category_id=384" target="_blank">アートパネル</a>
+                            <a href="https://www.hakuza.co.jp/shop/honten/" target="_blank">箔座本店</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="craft-card">
+                    <div class="craft-card-header">
+                        <h4>蒔絵</h4>
+                        <p class="english">Maki-e Lacquer Art</p>
+                    </div>
+                    <div class="craft-card-body">
+                        <dl class="craft-info">
+                            <dt>技法</dt><dd>漆で描き金銀粉を蒔く</dd>
+                            <dt>歴史</dt><dd>平安時代から</dd>
+                            <dt>種類</dt><dd>平蒔絵、研出蒔絵、高蒔絵</dd>
+                        </dl>
+                        <div class="craft-features">
+                            <h5>特徴</h5>
+                            <p>日本独自の漆装飾技法。金銀の輝きと漆の深みが生む荘厳な美。</p>
+                        </div>
+                        <div class="craft-links">
+                            <a href="https://www.metmuseum.org/art/collection/search/57827" target="_blank">メトロポリタン美術館</a>
+                            <a href="http://www.yamazakimushu.com/collection.html" target="_blank">山崎無舟作品集</a>
+                            <a href="https://www.thejapanesegallery.com/makie" target="_blank">Japanese Gallery</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="craft-card">
+                    <div class="craft-card-header">
+                        <h4>螺鈿</h4>
+                        <p class="english">Raden / Mother-of-Pearl Inlay</p>
+                    </div>
+                    <div class="craft-card-body">
+                        <dl class="craft-info">
+                            <dt>技法</dt><dd>貝殻を漆器に埋め込む</dd>
+                            <dt>素材</dt><dd>アワビ、夜光貝、真珠貝</dd>
+                            <dt>歴史</dt><dd>奈良時代に伝来</dd>
+                        </dl>
+                        <div class="craft-features">
+                            <h5>特徴</h5>
+                            <p>見る角度や光によって虹色に輝く、宝石のような美しさ。</p>
+                        </div>
+                        <div class="craft-links">
+                            <a href="https://www.kogeistandard.com/resource/mother-of-pearl-inlay/" target="_blank">KOGEI STANDARD</a>
+                            <a href="https://sagaraden.com/products/" target="_blank">嵯峩螺鈿野村</a>
+                            <a href="https://musubikiln.com/blogs/journal/the-intricate-artistry-of-raden-mother-of-pearl-inlays" target="_blank">Musubi Kiln</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="craft-card">
+                    <div class="craft-card-header">
+                        <h4>組子</h4>
+                        <p class="english">Kumiko Woodwork</p>
+                    </div>
+                    <div class="craft-card-body">
+                        <dl class="craft-info">
+                            <dt>技法</dt><dd>釘なしで木片を組み合わせる</dd>
+                            <dt>歴史</dt><dd>飛鳥時代（600-700年）から</dd>
+                            <dt>パターン</dt><dd class="highlight">約200種類</dd>
+                        </dl>
+                        <div class="craft-features">
+                            <h5>代表模様</h5>
+                            <p>麻の葉（成長）、菱（権威）、桜（美と儚さ）、格子（魔除け）</p>
+                        </div>
+                        <div class="craft-links">
+                            <a href="https://kumikowoodworking.com/design/" target="_blank">パターン一覧</a>
+                            <a href="https://kumikowoodworking.com/products/category/art-kumiko/" target="_blank">ラグジュアリー製品</a>
+                            <a href="https://www.ippinproject.com/kumiko-woodscreen-tanihata" target="_blank">IPPIN PROJECT</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="craft-card">
+                    <div class="craft-card-header">
+                        <h4>和紙</h4>
+                        <p class="english">Washi Japanese Paper</p>
+                    </div>
+                    <div class="craft-card-body">
+                        <dl class="craft-info">
+                            <dt>主要産地</dt><dd>越前、美濃、土佐</dd>
+                            <dt>歴史</dt><dd>1500年以上</dd>
+                            <dt>特徴</dt><dd>カスタムメイド可能</dd>
+                        </dl>
+                        <div class="craft-features">
+                            <h5>用途</h5>
+                            <p>壁紙、障子、襖紙、照明シェード、アートパネル</p>
+                        </div>
+                        <div class="craft-links">
+                            <a href="https://washism.com/catalog/wall/" target="_blank">越前和紙壁紙</a>
+                            <a href="https://osada-washi.jp/interior-japanesepaper_index.html" target="_blank">長田製紙所</a>
+                            <a href="https://www.ippinproject.com/japanese-washi-wall-covering" target="_blank">IPPIN PROJECT</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Fabric -->
+        <div class="craft-category fade-in">
+            <h3>B. Fabric & Textile / ファブリック・織物</h3>
+            <div class="craft-grid">
+                <div class="craft-card">
+                    <div class="craft-card-header">
+                        <h4>西陣織</h4>
+                        <p class="english">Nishijin Textile</p>
+                    </div>
+                    <div class="craft-card-body">
+                        <dl class="craft-info">
+                            <dt>産地</dt><dd>京都市西陣</dd>
+                            <dt>歴史</dt><dd class="highlight">1200年以上</dd>
+                            <dt>特徴</dt><dd>金糸銀糸の高級絹織物</dd>
+                        </dl>
+                        <div class="craft-features">
+                            <h5>世界ブランドでの採用</h5>
+                            <p>Dior 100店舗、Chanel 60店舗、Hermès、Cartier、Ritz-Carlton、LEXUS LS</p>
+                        </div>
+                        <div class="craft-links">
+                            <a href="https://www.hosoo.co.jp/" target="_blank">HOSOO公式</a>
+                            <a href="https://watabun.co.jp/fabric/" target="_blank">渡文</a>
+                            <a href="https://kyo-go.com/" target="_blank">KYOGO</a>
+                            <a href="https://www.japan.travel/en/luxury/detail/hosoo-textiles/" target="_blank">Japan Travel</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="brand-showcase">
+                <h4>NISHIJIN TEXTILE IS USED BY</h4>
+                <div class="brand-logos">
+                    <span>DIOR</span>
+                    <span>CHANEL</span>
+                    <span>HERMES</span>
+                    <span>CARTIER</span>
+                    <span>LEXUS</span>
+                    <span>RITZ-CARLTON</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Furniture -->
+        <div class="craft-category fade-in">
+            <h3>C. Furniture & Lacquerware / 家具・漆器</h3>
+            <div class="craft-grid">
+                <div class="craft-card">
+                    <div class="craft-card-header">
+                        <h4>輪島塗</h4>
+                        <p class="english">Wajima Lacquerware</p>
+                    </div>
+                    <div class="craft-card-body">
+                        <dl class="craft-info">
+                            <dt>産地</dt><dd>石川県輪島市</dd>
+                            <dt>工程</dt><dd class="highlight">124工程</dd>
+                            <dt>特徴</dt><dd>世代を超えて使用可能</dd>
+                        </dl>
+                        <div class="craft-features">
+                            <h5>現代コラボレーション</h5>
+                            <p>Max Lamb（英国デザイナー）が2010年から輪島を訪問、現代的な漆家具を制作</p>
+                        </div>
+                        <div class="craft-links">
+                            <a href="http://www.kirimoto.net/furniture/f_top.html" target="_blank">輪島キリモト</a>
+                            <a href="https://www.taigadou.com/wajimanurizataku" target="_blank">大雅堂座卓</a>
+                            <a href="https://www.designboom.com/design/max-lamb-urushi-wajima-gallery-fumi-london-design-festival-09-16-2019/" target="_blank">Max Lamb作品</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="craft-card">
+                    <div class="craft-card-header">
+                        <h4>松本民芸家具</h4>
+                        <p class="english">Matsumoto Mingei Furniture</p>
+                    </div>
+                    <div class="craft-card-body">
+                        <dl class="craft-info">
+                            <dt>産地</dt><dd>長野県松本市</dd>
+                            <dt>歴史</dt><dd>300年以上</dd>
+                            <dt>特徴</dt><dd>和洋融合の民芸家具</dd>
+                        </dl>
+                        <div class="craft-features">
+                            <h5>国際評価</h5>
+                            <p>ニューヨーク・ロックフェラーセンターに納品。バーナード・リーチが技術指導。</p>
+                        </div>
+                        <div class="craft-links">
+                            <a href="http://matsumin.com/" target="_blank">公式サイト</a>
+                            <a href="https://kogeijapan.com/locale/en_US/matsumotokagu/" target="_blank">KOGEI JAPAN</a>
+                            <a href="https://camori.jp/en/collections/6" target="_blank">Camori</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Glass -->
+        <div class="craft-category fade-in">
+            <h3>D. Glass & Lighting / ガラス工芸・照明</h3>
+            <div class="craft-grid">
+                <div class="craft-card">
+                    <div class="craft-card-header">
+                        <h4>江戸切子</h4>
+                        <p class="english">Edo Kiriko Cut Glass</p>
+                    </div>
+                    <div class="craft-card-body">
+                        <dl class="craft-info">
+                            <dt>産地</dt><dd>東京</dd>
+                            <dt>創始</dt><dd>1834年</dd>
+                            <dt>特徴</dt><dd>シャープで繊細なカット</dd>
+                        </dl>
+                        <div class="craft-features">
+                            <h5>「光のマスター」</h5>
+                            <p>深く正確なカットが光を屈折・反射させ、生きた輝きを生む。</p>
+                        </div>
+                        <div class="craft-links">
+                            <a href="https://www.edokiriko.or.jp/" target="_blank">江戸切子協同組合</a>
+                            <a href="https://www.edokiriko.net/whatis" target="_blank">すみだ江戸切子館</a>
+                            <a href="https://japanesecrafts.com/collections/kiriko" target="_blank">日本工芸堂</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="craft-card">
+                    <div class="craft-card-header">
+                        <h4>薩摩切子</h4>
+                        <p class="english">Satsuma Kiriko - "Phantom Cut Glass"</p>
+                    </div>
+                    <div class="craft-card-body">
+                        <dl class="craft-info">
+                            <dt>産地</dt><dd>鹿児島県</dd>
+                            <dt>歴史</dt><dd>幕末に誕生、1985年復元</dd>
+                            <dt>別名</dt><dd class="highlight">「幻の切子」</dd>
+                        </dl>
+                        <div class="craft-features">
+                            <h5>「ぼかし」の美</h5>
+                            <p>厚い色ガラス層によるグラデーション。江戸切子が「線の美」なら薩摩は「色の美」。</p>
+                        </div>
+                        <div class="craft-links">
+                            <a href="https://japanesecrafts.com/blogs/news/satsuma-edokiriko" target="_blank">日本工芸堂解説</a>
+                            <a href="https://story.nakagawa-masashichi.jp/craft_post/116284" target="_blank">中川政七商店</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ceramics -->
+        <div class="craft-category fade-in">
+            <h3>E. Ceramics / 陶磁器</h3>
+            <div class="craft-grid">
+                <div class="craft-card">
+                    <div class="craft-card-header">
+                        <h4>有田焼・伊万里焼</h4>
+                        <p class="english">Arita / Imari Porcelain</p>
+                    </div>
+                    <div class="craft-card-body">
+                        <dl class="craft-info">
+                            <dt>産地</dt><dd>佐賀県有田町</dd>
+                            <dt>創始</dt><dd class="highlight">1616年（日本最古の磁器）</dd>
+                            <dt>様式</dt><dd>古伊万里、柿右衛門、鍋島</dd>
+                        </dl>
+                        <div class="craft-features">
+                            <h5>歴史的評価</h5>
+                            <p>17世紀オランダ東インド会社が大量発注。ヨーロッパ宮殿のインテリア装飾に使用。</p>
+                        </div>
+                        <div class="craft-links">
+                            <a href="https://kogeijapan.com/locale/en_US/imariyakiaritayaki/" target="_blank">KOGEI JAPAN</a>
+                            <a href="https://www.jtopia.co.jp/blogs/blog/arita-vs-imari-differences-3-styles" target="_blank">JTOPIA解説</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="craft-card">
+                    <div class="craft-card-header">
+                        <h4>九谷焼</h4>
+                        <p class="english">Kutani Ware</p>
+                    </div>
+                    <div class="craft-card-body">
+                        <dl class="craft-info">
+                            <dt>産地</dt><dd>石川県</dd>
+                            <dt>創始</dt><dd>1655年</dd>
+                            <dt>特徴</dt><dd class="highlight">九谷五彩</dd>
+                        </dl>
+                        <div class="craft-features">
+                            <h5>九谷五彩</h5>
+                            <p>緑、黄、赤、紫、紺青。厚く塗られた上絵付けが宝石のような輝き。</p>
+                        </div>
+                        <div class="craft-links">
+                            <a href="https://kogeijapan.com/locale/en_US/kutaniyaki/" target="_blank">KOGEI JAPAN</a>
+                            <a href="https://kcfg-japan.com/products/kutani-yaki-porcelain-vase-golden-cloud-and-trees" target="_blank">九谷焼花瓶</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Metal -->
+        <div class="craft-category fade-in">
+            <h3>F. Metal Crafts / 金属工芸</h3>
+            <div class="craft-grid">
+                <div class="craft-card">
+                    <div class="craft-card-header">
+                        <h4>高岡銅器</h4>
+                        <p class="english">Takaoka Copperware</p>
+                    </div>
+                    <div class="craft-card-body">
+                        <dl class="craft-info">
+                            <dt>産地</dt><dd>富山県高岡市</dd>
+                            <dt>歴史</dt><dd>400年以上</dd>
+                            <dt>シェア</dt><dd class="highlight">国内90%以上</dd>
+                        </dl>
+                        <div class="craft-features">
+                            <h5>国際評価</h5>
+                            <p>1867年パリ万博で高評価。2024年日米首脳会談でファーストレディへの贈答品に採用。</p>
+                        </div>
+                        <div class="craft-links">
+                            <a href="https://kogeijapan.com/locale/en_US/takaokadoki/" target="_blank">KOGEI JAPAN</a>
+                            <a href="https://nagae-en.jp/takaoka" target="_blank">能作</a>
+                            <a href="https://fumikoda.jp/en/collections/takaoka-collection" target="_blank">FUMIKODA</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="craft-card">
+                    <div class="craft-card-header">
+                        <h4>七宝焼</h4>
+                        <p class="english">Shippo / Cloisonne Enamel</p>
+                    </div>
+                    <div class="craft-card-body">
+                        <dl class="craft-info">
+                            <dt>技法</dt><dd>金属にガラス質釉薬を焼付</dd>
+                            <dt>名称由来</dt><dd>仏教の「七宝」</dd>
+                            <dt>技法</dt><dd>有線、無線、銀箔七宝</dd>
+                        </dl>
+                        <div class="craft-features">
+                            <h5>明治期の隆盛</h5>
+                            <p>世界最高水準の技術に到達。並河靖之らが人間国宝級の名工として活躍。</p>
+                        </div>
+                        <div class="craft-links">
+                            <a href="https://antiquearena.com/articles/view/the-exquisite-art-of-japanese-cloisonn%C3%A9-enamel" target="_blank">解説記事</a>
+                            <a href="https://www.pinterest.com/gregmanning1954/art-japanese-cloisonne-%E4%B8%83%E5%AE%9D%E7%84%BC-shipp%C5%8D-yaki/" target="_blank">Pinterest</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Concepts -->
+    <section id="concepts">
+        <h2 class="section-title">INTERIOR CONCEPTS</h2>
+        <p class="section-subtitle">4 DESIGN PROPOSALS FOR DIFFERENT WEALTHY SEGMENTS</p>
+
+        <div class="concept-grid fade-in">
+            <div class="concept-card">
+                <h3>金と漆の煌めき</h3>
+                <p class="english">Gold & Lacquer Brilliance</p>
+                <span class="target">TARGET: 中東・アジアの富裕層</span>
+                <div class="concept-items">
+                    <div class="item">
+                        <span class="location">壁面</span>
+                        <span class="craft">金沢箔 + 蒔絵パネル</span>
+                    </div>
+                    <div class="item">
+                        <span class="location">天井</span>
+                        <span class="craft">組子格子 + 間接照明</span>
+                    </div>
+                    <div class="item">
+                        <span class="location">テーブル</span>
+                        <span class="craft">輪島塗ダイニングテーブル</span>
+                    </div>
+                    <div class="item">
+                        <span class="location">ソファ</span>
+                        <span class="craft">西陣織（金糸）張り</span>
+                    </div>
+                    <div class="item">
+                        <span class="location">照明</span>
+                        <span class="craft">江戸切子シャンデリア</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="concept-card">
+                <h3>禅 - ZEN</h3>
+                <p class="english">Minimalist Harmony</p>
+                <span class="target">TARGET: 欧米の富裕層（Japandi好き）</span>
+                <div class="concept-items">
+                    <div class="item">
+                        <span class="location">壁面</span>
+                        <span class="craft">越前和紙 + 墨象アート</span>
+                    </div>
+                    <div class="item">
+                        <span class="location">パーティション</span>
+                        <span class="craft">組子スクリーン（麻の葉）</span>
+                    </div>
+                    <div class="item">
+                        <span class="location">床</span>
+                        <span class="craft">琉球畳</span>
+                    </div>
+                    <div class="item">
+                        <span class="location">家具</span>
+                        <span class="craft">松本民芸家具</span>
+                    </div>
+                    <div class="item">
+                        <span class="location">食器</span>
+                        <span class="craft">有田焼モダンライン</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="concept-card">
+                <h3>海と光</h3>
+                <p class="english">Sea & Light</p>
+                <span class="target">TARGET: 海を愛するヨットオーナー</span>
+                <div class="concept-items">
+                    <div class="item">
+                        <span class="location">照明</span>
+                        <span class="craft">薩摩切子ペンダント</span>
+                    </div>
+                    <div class="item">
+                        <span class="location">パーティション</span>
+                        <span class="craft">江戸切子パネル</span>
+                    </div>
+                    <div class="item">
+                        <span class="location">テーブル</span>
+                        <span class="craft">ガラス天板 × 輪島塗脚</span>
+                    </div>
+                    <div class="item">
+                        <span class="location">壁面</span>
+                        <span class="craft">金箔（波模様）</span>
+                    </div>
+                    <div class="item">
+                        <span class="location">オブジェ</span>
+                        <span class="craft">七宝焼（海モチーフ）</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="concept-card">
+                <h3>伝統と革新</h3>
+                <p class="english">Heritage Innovation</p>
+                <span class="target">TARGET: テック起業家</span>
+                <div class="concept-items">
+                    <div class="item">
+                        <span class="location">壁面</span>
+                        <span class="craft">金沢箔 × デジタルアート</span>
+                    </div>
+                    <div class="item">
+                        <span class="location">家具</span>
+                        <span class="craft">Max Lamb × 輪島塗</span>
+                    </div>
+                    <div class="item">
+                        <span class="location">ファブリック</span>
+                        <span class="craft">HOSOO西陣織</span>
+                    </div>
+                    <div class="item">
+                        <span class="location">照明</span>
+                        <span class="craft">和紙 × LED</span>
+                    </div>
+                    <div class="item">
+                        <span class="location">床</span>
+                        <span class="craft">能作 真鍮タイル</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Business Info -->
+    <section id="business">
+        <h2 class="section-title">BUSINESS INFORMATION</h2>
+        <p class="section-subtitle">CRUISER PURCHASE & MAINTENANCE</p>
+
+        <div class="fade-in">
+            <h3 style="color: var(--gold); margin-bottom: 1.5rem;">中古クルーザー購入の注意点</h3>
+            <table class="info-table">
+                <tr>
+                    <th>項目</th>
+                    <th>内容</th>
+                </tr>
+                <tr>
+                    <td>劣化スピード</td>
+                    <td>海水による腐食、生物付着など特有の劣化要因がある</td>
+                </tr>
+                <tr>
+                    <td>隠れた欠陥</td>
+                    <td>エンジン故障、船底の損傷など目視では分かりにくい問題</td>
+                </tr>
+                <tr>
+                    <td>対策</td>
+                    <td class="highlight">船舶検査士（サーベイヤー）による第三者検査を推奨（10〜20万円）</td>
+                </tr>
+                <tr>
+                    <td>価値減少</td>
+                    <td>3年で約30%、5年で約40〜50%、10年で約60〜70%</td>
+                </tr>
+            </table>
+
+            <h3 style="color: var(--gold); margin: 3rem 0 1.5rem;">年間維持費（ランニングコスト）</h3>
+            <table class="info-table">
+                <tr>
+                    <th>サイズ</th>
+                    <th>フィート</th>
+                    <th>年間維持費目安</th>
+                </tr>
+                <tr>
+                    <td>小型</td>
+                    <td>20〜25ft</td>
+                    <td>100〜150万円</td>
+                </tr>
+                <tr>
+                    <td>中型</td>
+                    <td>26〜35ft</td>
+                    <td>200〜300万円</td>
+                </tr>
+                <tr>
+                    <td>大型</td>
+                    <td>36ft以上</td>
+                    <td>300〜1,000万円以上</td>
+                </tr>
+                <tr>
+                    <td>超大型ヨット</td>
+                    <td>50ft以上</td>
+                    <td class="highlight">600〜1,000万円以上</td>
+                </tr>
+            </table>
+            <p style="color: #999; margin-top: 1rem; font-size: 0.9rem;">※一般的な目安：購入価格の10〜15%が年間維持費</p>
+
+            <h3 style="color: var(--gold); margin: 3rem 0 1.5rem;">内装工事に関する法的手続き</h3>
+            <table class="info-table">
+                <tr>
+                    <th>船舶サイズ</th>
+                    <th>管轄機関</th>
+                </tr>
+                <tr>
+                    <td>20トン未満</td>
+                    <td>日本小型船舶検査機構（JCI）</td>
+                </tr>
+                <tr>
+                    <td>20トン以上</td>
+                    <td>国土交通省（運輸局）</td>
+                </tr>
+            </table>
+            <p style="color: var(--gold-light); margin-top: 1rem;">改造内容により必要書類・検査が異なるため、必ず事前相談を推奨</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-links">
+            <a href="https://kogeijapan.com/" target="_blank">KOGEI JAPAN</a>
+            <a href="https://www.boatinternational.com/luxury-yacht-events/superyacht-design-festival/superyacht-design-trends-2025" target="_blank">Boat International</a>
+            <a href="https://jci.go.jp/" target="_blank">日本小型船舶検査機構</a>
+            <a href="https://sinot.com/zen/" target="_blank">Sinot ZEN Yacht</a>
+        </div>
+        <p class="copyright">Research Date: January 26, 2026</p>
+    </footer>
+
+    <script>
+        // Scroll Animation
+        const fadeElements = document.querySelectorAll('.fade-in');
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        fadeElements.forEach(el => observer.observe(el));
+
+        // Smooth scroll for navigation
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                target.scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>
