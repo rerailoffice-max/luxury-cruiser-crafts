@@ -1,102 +1,135 @@
 # 画像生成プロンプト集
 ## 富裕層向けクルーザー × 日本伝統工芸 内装イメージ
+### 実在モデルベース版
+
+---
+
+# 対象クルーザーモデル
+
+| メーカー | モデル | 全長 | 特徴 | 価格帯 |
+|----------|--------|------|------|--------|
+| **Lexus** | LY680 | 68ft (20.7m) | ダークバニッシュドウッド内装、3キャビン | $5M+ |
+| **Lexus** | LY650 | 65ft (19.8m) | ホワイト基調、3ステートルーム | $3.6-4.7M |
+| **Yamaha** | EXULT 43 | 43ft (13m) | 日本最高峰フラッグシップ | ¥1.47億 |
+| **Yamaha** | PRESTIGE F4.9 | 49ft | 2024年新型、モダンデザイン | ¥8,000万+ |
+| **Toyota** | Ponam-35 | 35ft (10.7m) | プレミアムクルーザー | ¥4,500万+ |
+| **Toyota** | Ponam-31 | 31ft (9.4m) | スポーティ&ラグジュアリー | ¥3,500万+ |
 
 ---
 
 # Midjourney v7 用プロンプト
 
-## コンセプト1：金と漆の煌めき（Gold & Lacquer Brilliance）
+## Lexus LY680 × 伝統工芸シリーズ
 
-### 1-1. メインサロン（リビング）
+### LY680-1. メインサロン（金と漆）
 ```
-Luxury superyacht main salon interior, Japanese traditional crafts, gold leaf wall panels with Kanazawa kinpaku, black urushi lacquer Wajima-nuri dining table with maki-e gold decoration, Nishijin-ori silk fabric sofa in gold thread, Edo kiriko crystal chandelier, kumiko wooden lattice ceiling with indirect lighting, warm ambient lighting, ultra-realistic, architectural photography, 8k, --ar 16:9 --v 7 --s 250 --q 2
-```
-
-### 1-2. ダイニングエリア
-```
-Opulent yacht dining room, Japanese Kanazawa gold leaf accent wall with wave pattern, large Wajima lacquer dining table seats 8, maki-e decorated cabinet, Kutani porcelain vase with gold kinrande pattern, floor to ceiling windows ocean view, golden hour lighting, photorealistic interior design, luxury lifestyle, --ar 16:9 --v 7 --s 250 --q 2
+Lexus LY680 yacht main salon interior, 68 feet luxury cruiser, replacing dark varnished wood with Japanese traditional crafts, Kanazawa gold leaf wall panels with wave pattern, Wajima-nuri black urushi lacquer dining table with maki-e gold decoration, Nishijin-ori silk upholstery in gold thread, Edo kiriko crystal pendant lights, kumiko wooden lattice ceiling, warm ambient lighting, ultra-realistic, architectural interior photography, 8k, --ar 16:9 --v 7 --s 250 --q 2
 ```
 
-### 1-3. マスターベッドルーム
+### LY680-2. マスターキャビン（螺鈿）
 ```
-Luxurious superyacht master bedroom, raden mother-of-pearl inlay headboard panel, gold leaf ceiling detail, Nishijin-ori bedding with gold silver threads, Wajima lacquer bedside tables, soft warm lighting, panoramic ocean windows, Japanese craftsmanship meets modern luxury, cinematic lighting, --ar 16:9 --v 7 --s 250 --q 2
-```
-
-### 1-4. バー/ラウンジ
-```
-Exclusive yacht bar lounge, Kanazawa gold leaf back wall, Edo kiriko cut glass shelving with bottles, black urushi lacquer bar counter with chinkin gold inlay, Takaoka bronze sculpture centerpiece, ambient golden lighting, ultra luxurious atmosphere, wealthy lifestyle, --ar 16:9 --v 7 --s 250 --q 2
+Lexus LY680 master cabin bedroom, luxury yacht stateroom, raden mother-of-pearl inlay headboard panel replacing standard wood, Kanazawa gold leaf accent on ceiling, Nishijin-ori bedding with silver threads, Wajima lacquer bedside tables, soft warm lighting, panoramic windows with ocean view, Japanese craftsmanship meets Lexus precision, --ar 16:9 --v 7 --s 250 --q 2
 ```
 
----
-
-## コンセプト2：禅 - ZEN（Minimalist Harmony）
-
-### 2-1. メインサロン
+### LY680-3. ダイニングエリア
 ```
-Zen minimalist superyacht interior, Echizen washi paper wall panels, kumiko asanoha pattern wooden screen partition, natural light filtering through, Matsumoto mingei furniture in natural wood, simple Arita porcelain on low table, tatami floor section, clean lines, peaceful atmosphere, muted earth tones, Japanese aesthetics, --ar 16:9 --v 7 --s 200 --q 2
+Lexus LY680 yacht dining area, 8-person dining space, Wajima-nuri lacquer table with chinkin gold inlay, Kutani porcelain dinnerware with kinrande gold pattern, gold leaf accent wall, Edo kiriko glass chandelier above, large windows with sea view, golden hour lighting, photorealistic luxury interior, --ar 16:9 --v 7 --s 250 --q 2
 ```
 
-### 2-2. 瞑想/ウェルネススペース
+### LY680-4. バーラウンジ
 ```
-Yacht meditation room, floor to ceiling washi paper screens, soft diffused natural light, Ryukyu tatami mat floor, single ikebana arrangement in Bizen pottery, minimal furniture, ocean view, zen garden influence, tranquil serene atmosphere, wellness space design, --ar 16:9 --v 7 --s 200 --q 2
-```
-
-### 2-3. ベッドルーム
-```
-Serene yacht bedroom Japanese style, shoji-inspired sliding panels, natural wood Hida furniture bed frame, organic cotton linen, small raden inlay accent on wall, indirect lighting behind washi panels, muted beige cream palette, mindful luxury, --ar 16:9 --v 7 --s 200 --q 2
-```
-
-### 2-4. 茶室インスピレーション・コーナー
-```
-Modern yacht tea ceremony corner, tokonoma alcove with hanging scroll, single perfect ceramic tea bowl, tatami raised platform, kumiko lattice window screen, natural materials wood bamboo, subtle elegance, wabi-sabi aesthetics, contemplative space, --ar 16:9 --v 7 --s 200 --q 2
+Lexus LY680 onboard bar lounge, Kanazawa gold leaf back wall panel, Edo kiriko cut glass bottle display shelving, black urushi lacquer bar counter with maki-e crane motif, Takaoka bronze sculpture accent, premium whisky bottles, ambient golden lighting, wealthy lifestyle, --ar 16:9 --v 7 --s 250 --q 2
 ```
 
 ---
 
-## コンセプト3：海と光（Sea & Light）
+## Lexus LY650 × 禅スタイルシリーズ
 
-### 3-1. メインサロン
+### LY650-1. メインサロン（ZEN）
 ```
-Yacht salon celebrating light and sea, Satsuma kiriko pendant lamps in deep blue gradient, Edo kiriko glass partition panels refracting sunlight creating rainbow patterns, wave pattern Kanazawa gold leaf accent wall, glass and Wajima lacquer coffee table, ocean visible through large windows, light dancing through space, --ar 16:9 --v 7 --s 250 --q 2
-```
-
-### 3-2. ダイニング
-```
-Yacht dining area with Japanese glass artistry, multiple Edo kiriko pendant lights above table, shippo cloisonne enamel centerpiece with ocean motifs, blue and gold color scheme, natural light streaming in, cut glass creates prismatic light effects on walls, elegant marine luxury, --ar 16:9 --v 7 --s 250 --q 2
+Lexus LY650 yacht main salon, 65 feet luxury cruiser, minimalist Japanese zen interior transformation, original white interior enhanced with Echizen washi paper wall panels, kumiko asanoha pattern screen partition, Matsumoto mingei natural wood furniture, simple Arita porcelain on low table, clean lines, peaceful atmosphere, muted earth tones, --ar 16:9 --v 7 --s 200 --q 2
 ```
 
-### 3-3. ラウンジ/サンセットビュー
+### LY650-2. フォワードキャビン（瞑想空間）
 ```
-Yacht sunset lounge, Satsuma kiriko red glass lamps glowing, gold leaf wall panel with wave motif reflecting sunset light, full kiriko glass drink set on lacquer tray, silhouette against golden hour sky, romantic luxury atmosphere, --ar 16:9 --v 7 --s 250 --q 2
+Lexus LY650 forward cabin converted to meditation space, yacht wellness room, washi paper screens filtering soft light, Ryukyu tatami mat floor section, single ikebana in Bizen pottery, minimal furniture, ocean visible through hull windows, zen garden influence, tranquil serene atmosphere, --ar 16:9 --v 7 --s 200 --q 2
 ```
 
-### 3-4. バスルーム
+### LY650-3. ゲストキャビン
 ```
-Yacht bathroom spa, translucent Arita porcelain wash basin, Edo kiriko glass tile accent wall, soft blue ambient lighting, natural wood elements, ocean view, Japanese onsen inspired luxury bath design, serene water theme, --ar 16:9 --v 7 --s 250 --q 2
+Lexus LY650 guest stateroom, serene Japanese style yacht bedroom, shoji-inspired sliding panels, Hida furniture natural wood bed frame, organic cotton linen, small raden inlay accent, indirect lighting behind washi, muted beige cream palette, mindful luxury, --ar 16:9 --v 7 --s 200 --q 2
+```
+
+### LY650-4. 茶室コーナー
+```
+Lexus LY650 yacht interior with modern tea ceremony corner, tokonoma alcove with hanging scroll, single perfect Raku tea bowl, tatami raised platform, kumiko lattice window frame, natural materials wood bamboo, wabi-sabi aesthetics, contemplative space, --ar 16:9 --v 7 --s 200 --q 2
 ```
 
 ---
 
-## コンセプト4：伝統と革新（Heritage Innovation）
+## Yamaha EXULT 43 × プレミアムシリーズ
 
-### 4-1. メインサロン
+### EXULT43-1. メインサロン（海と光）
 ```
-Futuristic yacht interior blending tradition and innovation, Kanazawa gold leaf wall with projected digital art patterns, Max Lamb style modern Wajima lacquer furniture, HOSOO Nishijin textile in abstract contemporary pattern, LED strips integrated with washi panels, tech-forward yet rooted in craft, --ar 16:9 --v 7 --s 250 --q 2
-```
-
-### 4-2. コントロールルーム/オフィス
-```
-Yacht office space for tech entrepreneur, kumiko geometric screens with integrated displays, Takaoka copper desk accessories, modern lacquer desk with clean lines, smart home controls, blend of 400-year craftsmanship and cutting edge technology, --ar 16:9 --v 7 --s 250 --q 2
+Yamaha EXULT 43 yacht main salon, Japanese flagship cruiser 43 feet, Satsuma kiriko deep blue gradient pendant lamps, Edo kiriko glass partition creating rainbow light patterns, wave pattern Kanazawa gold leaf accent wall, glass and Wajima lacquer coffee table, large panoramic windows, dancing light through space, --ar 16:9 --v 7 --s 250 --q 2
 ```
 
-### 4-3. エンターテイメントエリア
+### EXULT43-2. ヘルムステーション
 ```
-Yacht entertainment room, HOSOO textile acoustic wall panels in modern geometric pattern, Nousaku brass sculptural lighting, contemporary Wajima lacquer media console, hidden technology integration, traditional materials in contemporary forms, --ar 16:9 --v 7 --s 250 --q 2
+Yamaha EXULT 43 helm station with Japanese craft accents, Takaoka copper instrument bezels, kumiko geometric wood panel dashboard trim, Wajima lacquer control console edges, Nishijin textile captain chair upholstery, premium yacht cockpit design, blend of technology and tradition, --ar 16:9 --v 7 --s 250 --q 2
 ```
 
-### 4-4. 外観デッキ（伝統工芸アクセント）
+### EXULT43-3. アフトキャビン
 ```
-Superyacht deck exterior at dusk, Takaoka bronze sculpture on deck, Edo kiriko lanterns providing ambient light, modern yacht design with Japanese craft accents, city skyline background, sophisticated wealthy lifestyle, --ar 16:9 --v 7 --s 250 --q 2
+Yamaha EXULT 43 aft cabin bedroom, Japanese traditional craft interior, raden mother-of-pearl ceiling panel accent, gold leaf trim details, Nishijin-ori silk bedding, Wajima lacquer vanity table, soft ambient lighting, luxurious yet intimate space, --ar 16:9 --v 7 --s 250 --q 2
+```
+
+### EXULT43-4. デッキラウンジ
+```
+Yamaha EXULT 43 aft deck lounge at sunset, outdoor entertainment area, Edo kiriko lanterns providing amber glow, Takaoka bronze sculpture centerpiece, Wajima lacquer outdoor table, Nishijin cushions, Tokyo Bay skyline background, sophisticated wealthy lifestyle, --ar 16:9 --v 7 --s 250 --q 2
+```
+
+---
+
+## Yamaha PRESTIGE F4.9 × 現代伝統シリーズ
+
+### F49-1. メインサロン（イノベーション）
+```
+Yamaha PRESTIGE F4.9 yacht main salon, 2024 new model 49 feet, futuristic interior blending tradition and innovation, Kanazawa gold leaf wall with subtle digital art projection, HOSOO Nishijin textile in contemporary geometric pattern, modern clean-line Wajima lacquer furniture, LED integrated washi panels, tech-forward yet rooted in craft, --ar 16:9 --v 7 --s 250 --q 2
+```
+
+### F49-2. スカイラウンジ
+```
+Yamaha PRESTIGE F4.9 sky lounge upper deck interior, panoramic ocean views, HOSOO textile acoustic wall panels modern abstract design, Nousaku brass sculptural pendant lighting, contemporary lacquer entertainment console, hidden technology integration, traditional materials contemporary forms, --ar 16:9 --v 7 --s 250 --q 2
+```
+
+### F49-3. VIPキャビン
+```
+Yamaha PRESTIGE F4.9 VIP cabin, modern Japanese luxury bedroom, geometric gold leaf headboard wall, Nishijin-ori accent pillows contemporary pattern, sleek Wajima lacquer furniture, indirect lighting strips, minimalist yet opulent, --ar 16:9 --v 7 --s 250 --q 2
+```
+
+### F49-4. バスルーム
+```
+Yamaha PRESTIGE F4.9 master bathroom, yacht spa design, translucent Arita porcelain wash basin with subtle gold rim, Edo kiriko glass tile accent wall, soft blue ambient lighting, natural wood elements, Japanese onsen inspired luxury, serene water theme, --ar 16:9 --v 7 --s 250 --q 2
+```
+
+---
+
+## Toyota Ponam-35 × 和モダンシリーズ
+
+### Ponam35-1. キャビン内装
+```
+Toyota Ponam-35 yacht cabin interior, premium Japanese cruiser 35 feet, white base interior enhanced with Wajima lacquer accents, kumiko lattice decorative panel, Arita porcelain fixtures, Nishijin textile cushions, natural wood and gold leaf details, harmonious blend of Toyota quality and traditional craft, --ar 16:9 --v 7 --s 250 --q 2
+```
+
+### Ponam35-2. サロン
+```
+Toyota Ponam-35 main salon, compact luxury yacht interior, Kanazawa gold leaf feature wall panel, Wajima-nuri coffee table, Edo kiriko glass accent lighting, premium upholstery with Nishijin-ori fabric, efficient yet opulent use of space, --ar 16:9 --v 7 --s 250 --q 2
+```
+
+### Ponam35-3. コックピット
+```
+Toyota Ponam-35 cockpit helm area, Japanese craft accents on dashboard, Takaoka copper trim details, kumiko wood panel inserts, lacquer steering wheel accent, blend of Toyota engineering precision and artisan craftsmanship, --ar 16:9 --v 7 --s 250 --q 2
 ```
 
 ---
@@ -110,12 +143,17 @@ Japanese Kanazawa gold leaf artisan at work, traditional workshop, beating gold 
 
 ### 職人シーン2：蒔絵
 ```
-Maki-e lacquer artist painting with gold powder, extreme close-up of brush work, black lacquer surface, intricate floral pattern emerging, traditional Japanese workshop, focused concentration, artisan craftsmanship, --ar 16:9 --v 7 --s 200 --q 2
+Maki-e lacquer artist painting with gold powder, extreme close-up of brush work, black lacquer surface, intricate wave pattern emerging for yacht interior panel, traditional Japanese workshop, focused concentration, artisan craftsmanship, --ar 16:9 --v 7 --s 200 --q 2
 ```
 
 ### 職人シーン3：切子
 ```
-Edo kiriko glass cutting master, sparks flying from grinding wheel, colored glass being precisely cut, traditional patterns emerging, workshop environment, master and apprentice, heritage craft, --ar 16:9 --v 7 --s 200 --q 2
+Edo kiriko glass cutting master, sparks flying from grinding wheel, blue colored glass being precisely cut, traditional kagome pattern emerging, workshop environment, master and apprentice, heritage craft, --ar 16:9 --v 7 --s 200 --q 2
+```
+
+### 職人シーン4：組子
+```
+Kumiko woodwork artisan assembling intricate geometric lattice, no nails or glue, Japanese cypress wood pieces fitting perfectly, workshop with natural light, precision and patience, traditional joinery for yacht ceiling panel, --ar 16:9 --v 7 --s 200 --q 2
 ```
 
 ---
@@ -123,98 +161,117 @@ Edo kiriko glass cutting master, sparks flying from grinding wheel, colored glas
 
 # NanoBanana Pro 用プロンプト
 
-## コンセプト1：金と漆の煌めき
+## Lexus LY680シリーズ
 
-### 1-1. メインサロン
+### LY680-1. メインサロン
 ```
-超高級スーパーヨットのメインサロン内装、日本伝統工芸、金沢金箔の壁面パネル、輪島塗の黒漆ダイニングテーブルに蒔絵装飾、金糸の西陣織シルクソファ、江戸切子クリスタルシャンデリア、組子格子天井に間接照明、温かみのあるアンビエント照明、超リアル、建築写真、8K画質
-```
-
-### 1-2. ダイニングエリア
-```
-豪華ヨットダイニングルーム、波模様の金沢金箔アクセントウォール、8人掛け大型輪島塗ダイニングテーブル、蒔絵装飾キャビネット、金襴手の九谷焼花瓶、床から天井までの窓から海の眺め、ゴールデンアワーの光、フォトリアリスティック、ラグジュアリーライフスタイル
+レクサスLY680ヨット メインサロン内装、68フィートラグジュアリークルーザー、ダークウッド内装を日本伝統工芸に置換、金沢金箔の波模様壁パネル、蒔絵装飾の輪島塗黒漆ダイニングテーブル、金糸の西陣織シルク張りソファ、江戸切子クリスタルペンダントライト、組子格子天井、温かみのあるアンビエント照明、超リアル、8K
 ```
 
-### 1-3. マスターベッドルーム
+### LY680-2. マスターキャビン
 ```
-豪華スーパーヨットのマスターベッドルーム、螺鈿の貝殻細工ヘッドボードパネル、金箔天井ディテール、金銀糸の西陣織ベッドリネン、輪島塗ベッドサイドテーブル、柔らかく温かい照明、パノラマオーシャンビュー、日本の職人技とモダンラグジュアリーの融合
-```
-
-### 1-4. バーラウンジ
-```
-エクスクルーシブなヨットバーラウンジ、金沢金箔のバックウォール、江戸切子カットグラスの棚、沈金装飾の黒漆バーカウンター、高岡銅器のブロンズ彫刻センターピース、アンビエントゴールド照明、超ラグジュアリーな雰囲気
+レクサスLY680マスターキャビン寝室、ラグジュアリーヨットステートルーム、螺鈿の貝殻細工ヘッドボードパネル、天井に金沢金箔アクセント、銀糸の西陣織ベッドリネン、輪島塗ベッドサイドテーブル、柔らかく温かい照明、パノラマ窓からオーシャンビュー、日本の職人技とレクサスの精密さの融合
 ```
 
----
-
-## コンセプト2：禅 - ZEN
-
-### 2-1. メインサロン
+### LY680-3. ダイニング
 ```
-禅ミニマリストのスーパーヨット内装、越前和紙の壁面パネル、麻の葉模様の組子木製スクリーンパーティション、自然光が柔らかくフィルター、天然木の松本民芸家具、ローテーブルにシンプルな有田焼、畳フロアセクション、クリーンなライン、平和な雰囲気、落ち着いたアーストーン
+レクサスLY680ヨットダイニングエリア、8人用ダイニング空間、沈金装飾の輪島塗テーブル、金襴手の九谷焼食器、金箔アクセントウォール、上部に江戸切子シャンデリア、大窓から海の眺め、ゴールデンアワーの光、フォトリアリスティックラグジュアリー
 ```
 
-### 2-2. 瞑想スペース
+### LY680-4. バーラウンジ
 ```
-ヨット瞑想ルーム、床から天井までの和紙スクリーン、柔らかく拡散した自然光、琉球畳の床、備前焼の花器に一輪挿し、最小限の家具、オーシャンビュー、禅庭の影響、静謐で穏やかな雰囲気、ウェルネス空間
-```
-
-### 2-3. ベッドルーム
-```
-静謐なヨットベッドルーム和風、障子風スライディングパネル、天然木の飛騨家具ベッドフレーム、オーガニックコットンリネン、壁に小さな螺鈿アクセント、和紙パネル裏の間接照明、落ち着いたベージュクリーム配色、マインドフルラグジュアリー
-```
-
-### 2-4. 茶室コーナー
-```
-モダンヨットの茶室コーナー、掛け軸のある床の間、完璧な一つの茶碗、畳の上がり框、組子格子の窓スクリーン、天然素材の木と竹、繊細な優雅さ、侘び寂びの美学、瞑想的な空間
+レクサスLY680船上バーラウンジ、金沢金箔バックウォールパネル、江戸切子カットグラスのボトルディスプレイ棚、鶴の蒔絵装飾の黒漆バーカウンター、高岡銅器彫刻アクセント、プレミアムウイスキーボトル、アンビエントゴールド照明
 ```
 
 ---
 
-## コンセプト3：海と光
+## Lexus LY650シリーズ
 
-### 3-1. メインサロン
+### LY650-1. メインサロン（ZEN）
 ```
-光と海を祝福するヨットサロン、深い青のグラデーション薩摩切子ペンダントランプ、虹のパターンを作り出す江戸切子ガラスパーティション、波模様の金沢金箔アクセントウォール、ガラスと輪島塗のコーヒーテーブル、大きな窓から見える海、空間に踊る光
-```
-
-### 3-2. ダイニング
-```
-日本のガラス芸術が光るヨットダイニングエリア、テーブル上に複数の江戸切子ペンダントライト、海モチーフの七宝焼センターピース、青と金の配色、差し込む自然光、カットガラスが壁にプリズム光を作る、エレガントなマリンラグジュアリー
+レクサスLY650ヨット メインサロン、65フィートラグジュアリークルーザー、ミニマリスト和風禅インテリア、オリジナルのホワイト内装に越前和紙壁パネルを追加、麻の葉模様の組子スクリーンパーティション、天然木の松本民芸家具、ローテーブルにシンプルな有田焼、クリーンなライン、平和な雰囲気
 ```
 
-### 3-3. サンセットラウンジ
+### LY650-2. 瞑想空間
 ```
-ヨットサンセットラウンジ、輝く赤の薩摩切子ランプ、夕日を反射する波模様金箔壁パネル、漆トレイの上の切子グラスセット、黄金の空をバックにしたシルエット、ロマンチックなラグジュアリー雰囲気
+レクサスLY650フォワードキャビンを瞑想空間に改装、ヨットウェルネスルーム、柔らかい光をフィルターする和紙スクリーン、琉球畳フロアセクション、備前焼の花器に一輪挿し、最小限の家具、船体窓から見える海、禅庭の影響、静謐で穏やかな雰囲気
 ```
 
-### 3-4. バスルーム
+### LY650-3. ゲストキャビン
 ```
-ヨットバスルームスパ、半透明の有田焼洗面ボウル、江戸切子ガラスタイルアクセントウォール、柔らかい青のアンビエント照明、天然木要素、オーシャンビュー、日本の温泉インスパイアのラグジュアリーバスデザイン、静謐な水のテーマ
+レクサスLY650ゲストステートルーム、静謐な和風ヨット寝室、障子風スライディングパネル、飛騨家具天然木ベッドフレーム、オーガニックコットンリネン、小さな螺鈿アクセント、和紙裏の間接照明、落ち着いたベージュクリーム配色
+```
+
+### LY650-4. 茶室コーナー
+```
+レクサスLY650ヨット内装にモダン茶室コーナー、掛け軸のある床の間、完璧な一つの楽焼茶碗、畳の上がり框、組子格子窓枠、天然素材の木と竹、侘び寂びの美学、瞑想的な空間
 ```
 
 ---
 
-## コンセプト4：伝統と革新
+## Yamaha EXULT 43シリーズ
 
-### 4-1. メインサロン
+### EXULT43-1. メインサロン
 ```
-伝統と革新が融合する未来的ヨット内装、デジタルアートパターンが投影される金沢金箔壁、マックス・ラム風のモダン輪島塗家具、抽象現代パターンのHOSOO西陣織テキスタイル、和紙パネルに統合されたLEDストリップ、テック志向ながら工芸に根ざした空間
-```
-
-### 4-2. オフィス
-```
-テック起業家のためのヨットオフィス空間、ディスプレイ統合型組子幾何学スクリーン、高岡銅器のデスクアクセサリー、クリーンラインのモダン漆デスク、スマートホームコントロール、400年の職人技と最先端技術の融合
+ヤマハ EXULT 43 ヨットメインサロン、日本最高峰フラッグシップクルーザー43フィート、深い青のグラデーション薩摩切子ペンダントランプ、虹の光パターンを作る江戸切子ガラスパーティション、波模様金沢金箔アクセントウォール、ガラスと輪島塗のコーヒーテーブル、大型パノラマ窓、空間に踊る光
 ```
 
-### 4-3. エンターテイメント
+### EXULT43-2. ヘルムステーション
 ```
-ヨットエンターテイメントルーム、モダン幾何学パターンのHOSOOテキスタイル吸音壁パネル、能作真鍮彫刻照明、現代的な輪島塗メディアコンソール、隠されたテクノロジー統合、現代的フォルムの伝統素材
+ヤマハ EXULT 43 ヘルムステーションに日本工芸アクセント、高岡銅器の計器ベゼル、組子幾何学木製パネルダッシュボードトリム、輪島塗コントロールコンソールエッジ、西陣織キャプテンチェア張り、プレミアムヨットコックピットデザイン、テクノロジーと伝統の融合
 ```
 
-### 4-4. デッキ外観
+### EXULT43-3. アフトキャビン
 ```
-夕暮れ時のスーパーヨットデッキ外観、デッキ上の高岡銅器彫刻、アンビエント照明の江戸切子ランタン、日本工芸アクセントのモダンヨットデザイン、都市スカイライン背景、洗練された富裕層ライフスタイル
+ヤマハ EXULT 43 アフトキャビン寝室、日本伝統工芸内装、螺鈿の天井パネルアクセント、金箔トリムディテール、西陣織シルクベッドリネン、輪島塗化粧台、柔らかいアンビエント照明、豪華だが親密な空間
+```
+
+### EXULT43-4. デッキラウンジ
+```
+ヤマハ EXULT 43 夕日のアフトデッキラウンジ、屋外エンターテイメントエリア、琥珀色の輝きを放つ江戸切子ランタン、高岡銅器彫刻センターピース、輪島塗アウトドアテーブル、西陣織クッション、東京湾スカイライン背景、洗練された富裕層ライフスタイル
+```
+
+---
+
+## Yamaha PRESTIGE F4.9シリーズ
+
+### F49-1. メインサロン（イノベーション）
+```
+ヤマハ PRESTIGE F4.9 ヨットメインサロン、2024年新型49フィート、伝統と革新が融合する未来的インテリア、微細なデジタルアート投影のある金沢金箔壁、現代的幾何学パターンのHOSOO西陣織テキスタイル、モダンクリーンラインの輪島塗家具、LED統合和紙パネル、テック志向ながら工芸に根ざした空間
+```
+
+### F49-2. スカイラウンジ
+```
+ヤマハ PRESTIGE F4.9 スカイラウンジ上層デッキ内装、パノラマオーシャンビュー、モダン抽象デザインのHOSOOテキスタイル吸音壁パネル、能作真鍮彫刻ペンダント照明、現代的な漆エンターテイメントコンソール、隠されたテクノロジー統合、現代的フォルムの伝統素材
+```
+
+### F49-3. VIPキャビン
+```
+ヤマハ PRESTIGE F4.9 VIPキャビン、モダン和風ラグジュアリー寝室、幾何学的金箔ヘッドボード壁、現代パターンの西陣織アクセントピロー、スリークな輪島塗家具、間接照明ストリップ、ミニマリストだが豪華
+```
+
+### F49-4. バスルーム
+```
+ヤマハ PRESTIGE F4.9 マスターバスルーム、ヨットスパデザイン、微かな金縁の半透明有田焼洗面ボウル、江戸切子ガラスタイルアクセントウォール、柔らかい青のアンビエント照明、天然木要素、温泉インスパイアのラグジュアリー、静謐な水のテーマ
+```
+
+---
+
+## Toyota Ponam-35シリーズ
+
+### Ponam35-1. キャビン内装
+```
+トヨタ Ponam-35 ヨットキャビン内装、プレミアム日本製クルーザー35フィート、ホワイトベース内装に輪島塗アクセント追加、組子格子装飾パネル、有田焼フィクスチャー、西陣織クッション、天然木と金箔ディテール、トヨタ品質と伝統工芸の調和的融合
+```
+
+### Ponam35-2. サロン
+```
+トヨタ Ponam-35 メインサロン、コンパクトラグジュアリーヨット内装、金沢金箔フィーチャーウォールパネル、輪島塗コーヒーテーブル、江戸切子ガラスアクセント照明、西陣織ファブリックのプレミアム張り、効率的だが豪華な空間活用
+```
+
+### Ponam35-3. コックピット
+```
+トヨタ Ponam-35 コックピットヘルムエリア、ダッシュボードに日本工芸アクセント、高岡銅器トリムディテール、組子木製パネルインサート、漆ステアリングホイールアクセント、トヨタエンジニアリング精度と職人技の融合
 ```
 
 ---
@@ -223,17 +280,22 @@ Edo kiriko glass cutting master, sparks flying from grinding wheel, colored glas
 
 ### 金箔職人
 ```
-金沢金箔職人の制作風景、伝統的な工房、金を薄く打ち延ばす作業、光を捉える金粉、匠の手、400年の伝統、ドキュメンタリー風写真
+金沢金箔職人の制作風景、伝統的な工房、金を薄く打ち延ばす作業、光を捉える金粉、匠の手、400年の伝統、ヨット内装パネル用の金箔準備、ドキュメンタリー風写真
 ```
 
 ### 蒔絵職人
 ```
-蒔絵漆芸作家が金粉で描く様子、筆仕事の超クローズアップ、黒漆の表面、浮かび上がる精緻な花模様、伝統的な日本の工房、集中した眼差し、職人の技
+蒔絵漆芸作家が金粉で描く様子、筆仕事の超クローズアップ、黒漆の表面、ヨット内装パネル用の波模様が浮かび上がる、伝統的な日本の工房、集中した眼差し、職人の技
 ```
 
 ### 切子職人
 ```
-江戸切子ガラスカットの名匠、研磨ホイールから飛ぶ火花、精密にカットされる色ガラス、浮かび上がる伝統模様、工房環境、師匠と弟子、受け継がれる技
+江戸切子ガラスカットの名匠、研磨ホイールから飛ぶ火花、精密にカットされる青色ガラス、籠目模様が浮かび上がる、工房環境、師匠と弟子、受け継がれる技
+```
+
+### 組子職人
+```
+組子細工職人が精緻な幾何学格子を組み上げる様子、釘も接着剤も使わない、檜の木片が完璧に嵌り合う、自然光の工房、精密さと忍耐、ヨット天井パネル用の伝統的木組み
 ```
 
 ---
@@ -267,64 +329,83 @@ Edo kiriko glass cutting master, sparks flying from grinding wheel, colored glas
 
 ---
 
-## 動画構成案（3分版）
+## 動画構成案（3分版）- 実在モデル版
 
 ### オープニング（0:00-0:20）
-- 海の空撮、スーパーヨット外観
+- 海の空撮、Lexus LY680外観
 - タイトル：「LUXURY CRUISER × JAPANESE CRAFTS」
+- サブタイトル：「Lexus • Yamaha • Toyota」
 - 音楽：壮大な和風オーケストラ
 
 ### Chapter 1: 職人の技（0:20-0:50）
 - 金箔職人の手元
 - 蒔絵の制作過程
 - 切子カットの火花
+- 組子の精密な組み立て
 - ナレーション：「400年の伝統が、海の上で輝く」
 
-### Chapter 2: 内装イメージ（0:50-2:00）
-- コンセプト1「金と漆」サロン（カメラパン）
-- コンセプト2「禅」瞑想スペース（ゆっくりズーム）
-- コンセプト3「海と光」ガラスの輝き（光の動き）
-- コンセプト4「革新」テック融合（ダイナミック）
-- 各15-20秒、トランジションで繋ぐ
+### Chapter 2: Lexus LY680/LY650（0:50-1:30）
+- LY680サロン「金と漆」（カメラパン）
+- LY680マスターキャビン（螺鈿の輝き）
+- LY650サロン「禅」スタイル（ゆっくりズーム）
+- LY650茶室コーナー（静謐な雰囲気）
 
-### Chapter 3: ディテール（2:00-2:30）
+### Chapter 3: Yamaha EXULT 43/PRESTIGE F4.9（1:30-2:10）
+- EXULT 43サロン「海と光」（光の動き）
+- EXULT 43デッキラウンジ夕景
+- PRESTIGE F4.9「革新」インテリア（ダイナミック）
+- PRESTIGE F4.9スカイラウンジ
+
+### Chapter 4: ディテール（2:10-2:40）
 - 螺鈿の虹色の輝き（クローズアップ）
-- 切子グラスに注がれるシャンパン
+- 江戸切子グラスに注がれるシャンパン
 - 西陣織の金糸が光る
 - 輪島塗テーブルへの反射
+- 組子天井から漏れる光
 
-### エンディング（2:30-3:00）
-- ヨットの夕景シルエット
+### エンディング（2:40-3:00）
+- 3艇のシルエット並び（LY680, EXULT 43, Ponam-35）
 - テキスト：「One of a kind. Crafted for you.」
+- 「LEXUS × YAMAHA × TOYOTA」
 - ロゴ・連絡先
 
 ---
 
-## Runway Gen-3用 動画生成プロンプト
+## Runway Gen-3用 動画生成プロンプト（実在モデル版）
 
-### シーン1：サロン パンショット
+### シーン1：Lexus LY680 サロン パンショット
 ```
-Camera slowly pans right across luxury yacht interior, gold leaf walls catching light, revealing Wajima lacquer table, then Nishijin silk sofa, warm ambient lighting, cinematic, smooth camera movement
-```
-
-### シーン2：禅スペース ズームイン
-```
-Slow zoom into minimalist yacht meditation room, washi paper screens glowing with soft light, tatami floor visible, peaceful atmosphere, camera moves forward gently
+Camera slowly pans right across Lexus LY680 yacht interior, Kanazawa gold leaf walls catching light, revealing Wajima lacquer table, then Nishijin silk sofa, 68 feet luxury cruiser main salon, warm ambient lighting, cinematic, smooth camera movement
 ```
 
-### シーン3：切子照明 光の動き
+### シーン2：Lexus LY650 禅スペース ズームイン
 ```
-Edo kiriko glass pendant lamps gently swaying, light refracting through cut glass creating dancing rainbow patterns on walls, yacht interior, magical atmosphere
+Slow zoom into Lexus LY650 yacht minimalist meditation room, 65 feet cruiser, washi paper screens glowing with soft light, tatami floor visible, white interior base, peaceful atmosphere, camera moves forward gently
+```
+
+### シーン3：Yamaha EXULT 43 切子照明 光の動き
+```
+Yamaha EXULT 43 yacht interior, Edo kiriko glass pendant lamps gently swaying, light refracting through cut glass creating dancing rainbow patterns on walls, Japanese flagship cruiser, magical atmosphere
 ```
 
 ### シーン4：職人の手 クローズアップ
 ```
-Extreme close-up of artisan hands applying gold leaf to surface, delicate precise movements, gold particles floating in air, traditional Japanese workshop, slow motion
+Extreme close-up of artisan hands applying gold leaf to yacht interior panel, delicate precise movements, gold particles floating in air, traditional Japanese workshop, preparing for Lexus yacht customization, slow motion
 ```
 
-### シーン5：エンディング 夕景
+### シーン5：Yamaha PRESTIGE F4.9 テック融合
 ```
-Superyacht silhouette against golden sunset sky, Japanese bronze sculpture visible on deck, camera slowly pulls back revealing ocean expanse, cinematic ending shot
+Yamaha PRESTIGE F4.9 sky lounge interior, 2024 model yacht, camera tracking shot revealing HOSOO textile walls and contemporary lacquer furniture, LED lights integrated with washi panels, innovation meets tradition
+```
+
+### シーン6：Toyota Ponam-35 コンパクトラグジュアリー
+```
+Toyota Ponam-35 yacht cabin interior, 35 feet cruiser, camera slowly reveals compact luxury space with kumiko panels and gold leaf accents, efficient design meets Japanese craftsmanship
+```
+
+### シーン7：エンディング 3艇シルエット
+```
+Three luxury yachts silhouette against golden sunset sky, Lexus LY680, Yamaha EXULT 43, Toyota Ponam-35, different sizes in composition, Japanese bronze sculpture visible on deck, camera slowly pulls back revealing ocean expanse, cinematic ending shot
 ```
 
 ---
@@ -332,7 +413,11 @@ Superyacht silhouette against golden sunset sky, Japanese bronze sculpture visib
 ## 制作フロー
 
 ```
-1. Midjourney / NanoBanana で静止画生成（20-30枚）
+1. Midjourney / NanoBanana で静止画生成
+   - Lexus LY680/LY650: 8-10枚
+   - Yamaha EXULT 43/F4.9: 8-10枚
+   - Toyota Ponam-35: 4-6枚
+   - 職人シーン: 4枚
    ↓
 2. ベスト画像を選定・アップスケール
    ↓
@@ -349,4 +434,15 @@ Superyacht silhouette against golden sunset sky, Japanese bronze sculpture visib
 
 ---
 
+## 参考：各モデル公式URL
+
+- **Lexus LY680**: https://www.lexus.com/ly680
+- **Lexus LY650**: https://www.lexus.com/ly650
+- **Yamaha EXULT 43**: https://www.yamaha-motor.co.jp/marine/lineup/exult/
+- **Yamaha PRESTIGE**: https://www.yamaha-motor.co.jp/marine/lineup/prestige/
+- **Toyota Ponam**: https://toyota.jp/marine/ponam/
+
+---
+
 *作成日: 2026年1月27日*
+*更新: 実在クルーザーモデル対応版*
