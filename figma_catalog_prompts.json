@@ -1,0 +1,195 @@
+{
+  "project_name": "CRUISER × 伝統工芸 カタログ",
+  "design_reference": "not a hotel catalog style",
+  "format": {
+    "type": "Digital & Print Catalog",
+    "size": {
+      "width": "210mm",
+      "height": "297mm",
+      "orientation": "Portrait (A4)",
+      "alternative": {
+        "square": "250mm x 250mm",
+        "horizontal": "297mm x 210mm (A4 Landscape)"
+      }
+    },
+    "total_pages": 32,
+    "bleed": "3mm",
+    "margin": "20mm"
+  },
+
+  "design_system": {
+    "colors": {
+      "primary": {
+        "gold": "#C9A962",
+        "gold_light": "#E8D5A3"
+      },
+      "neutral": {
+        "black": "#1a1a1a",
+        "dark_gray": "#2d2d2d",
+        "warm_gray": "#4a4a4a",
+        "light_gray": "#f5f5f5",
+        "white": "#ffffff"
+      },
+      "accent": {
+        "deep_red": "#8B0000",
+        "indigo": "#2C3E50"
+      }
+    },
+    "typography": {
+      "display": {
+        "font": "Playfair Display",
+        "weight": "300-700",
+        "usage": "Headlines, Hero text"
+      },
+      "body_jp": {
+        "font": "Noto Sans JP",
+        "weight": "300-500",
+        "usage": "Japanese body text"
+      },
+      "body_en": {
+        "font": "Inter or Helvetica Neue",
+        "weight": "300-400",
+        "usage": "English body, specs"
+      },
+      "accent": {
+        "font": "Shippori Mincho",
+        "weight": "400-600",
+        "usage": "Japanese elegant headers"
+      }
+    },
+    "grid": {
+      "columns": 12,
+      "gutter": "16px",
+      "margin": "40px"
+    },
+    "spacing": {
+      "xs": "8px",
+      "sm": "16px",
+      "md": "32px",
+      "lg": "64px",
+      "xl": "128px"
+    }
+  },
+
+  "page_structure": [
+    {
+      "page": 1,
+      "type": "cover",
+      "prompt": "Create a luxurious catalog cover with full-bleed hero image of yacht silhouette at golden hour, minimal gold text overlay 'CRUISER × 伝統工芸' in Playfair Display, Japanese subtitle '日本の美をまとう、海上の邸宅' in Shippori Mincho, deep black background fading from image, gold accent line at bottom"
+    },
+    {
+      "page": "2-3",
+      "type": "spread_intro",
+      "prompt": "Double-page spread introduction, left page: large pull quote in gold '千年の技が、海を渡る' with generous white space, right page: atmospheric yacht interior photo with soft natural light, minimal caption at bottom"
+    },
+    {
+      "page": "4-5",
+      "type": "philosophy",
+      "prompt": "Philosophy spread with asymmetric layout, left: vertical Japanese text 'なぜ伝統工芸か' with horizontal English translation, right: full-bleed detail shot of gold leaf craftsmanship, text overlay minimal"
+    },
+    {
+      "page": "6-9",
+      "type": "cruiser_lexus_ly680",
+      "prompt": "4-page feature on Lexus LY680, page 1: hero full-bleed exterior shot, page 2-3: salon interior spread with specs sidebar (68ft, $5M+, 3 cabins), page 4: detail grid of craft applications. Use not-a-hotel style with massive imagery and minimal text"
+    },
+    {
+      "page": "10-13",
+      "type": "cruiser_lexus_ly650",
+      "prompt": "4-page feature on Lexus LY650 ZEN concept, emphasize minimalist design, white and natural tones, page 1: exterior, page 2-3: zen interior with meditation space, page 4: materials detail grid"
+    },
+    {
+      "page": "14-17",
+      "type": "cruiser_yamaha_exult43",
+      "prompt": "4-page feature on Yamaha EXULT 43, Japan's flagship yacht (¥1.47億), Sea & Light concept, emphasize Edo kiriko lighting and wave motifs, specs in elegant sidebar"
+    },
+    {
+      "page": "18-19",
+      "type": "cruiser_yamaha_prestige",
+      "prompt": "2-page spread on Yamaha PRESTIGE F4.9, Heritage Innovation concept, tech + tradition fusion, modern layout with geometric elements"
+    },
+    {
+      "page": "20-21",
+      "type": "cruiser_toyota_ponam",
+      "prompt": "2-page spread featuring both Toyota Ponam-35 and Ponam-31, compact luxury concept, side-by-side comparison layout, clean specs table"
+    },
+    {
+      "page": "22-25",
+      "type": "crafts_catalog",
+      "prompt": "4-page traditional crafts catalog grid, featuring 15 crafts organized by category: Wall panels (金沢箔, 蒔絵, 螺鈿, 組子, 和紙), Textiles (西陣織), Furniture (輪島塗, 松本民芸), Glass (江戸切子, 薩摩切子), Ceramics (有田焼, 九谷焼), Metal (高岡銅器, 七宝焼), Other (琉球畳). Each craft: small image + name + one-line description"
+    },
+    {
+      "page": "26-27",
+      "type": "concept_showcase",
+      "prompt": "2-page spread showcasing 4 interior concepts in quadrant layout: 1) Gold & Lacquer (中東・アジア富裕層), 2) ZEN (欧米Japandi), 3) Sea & Light (海を愛する人), 4) Heritage Innovation (テック起業家). Each quadrant: mood image + concept name + target"
+    },
+    {
+      "page": "28-29",
+      "type": "artisan_story",
+      "prompt": "Artisan documentary spread, large hero shot of craftsman hands at work, intimate close-up, natural lighting, pull quote from master craftsman, minimal biographical text"
+    },
+    {
+      "page": "30-31",
+      "type": "process_specs",
+      "prompt": "Process and specifications spread, left: timeline/process infographic of custom order (consultation → design → crafting → installation), right: maintenance costs table and legal requirements in clean typography"
+    },
+    {
+      "page": 32,
+      "type": "back_cover",
+      "prompt": "Back cover with minimalist design, centered gold logo mark, contact information in small elegant type, subtle texture background suggesting washi paper, QR code to digital experience"
+    }
+  ],
+
+  "figma_ai_prompts": {
+    "overall_design": "Design a luxury yacht catalog in the style of 'not a hotel' brand - characterized by massive full-bleed photography, extreme white space, minimal elegant typography, asymmetric layouts, and sophisticated color palette of black, white, and gold accents. The catalog combines Japanese traditional crafts with modern yacht interiors.",
+
+    "page_templates": {
+      "hero_spread": "Create a double-page spread with full-bleed atmospheric photography taking 80% of space, minimal gold accent typography in bottom corner, generous margins, Playfair Display for English headlines, Shippori Mincho for Japanese",
+
+      "product_feature": "Design a 4-page yacht feature layout: Page 1 full exterior shot, Pages 2-3 interior spread with floating specs card (white card with gold border, containing model name, length, price, cabin count), Page 4 detail grid of 6 square images",
+
+      "catalog_grid": "Create a catalog grid layout for traditional crafts: 3 columns, each item has square image on top, craft name in gold below, one-line description in gray, generous spacing between items",
+
+      "quote_page": "Design a minimal quote page with single large Japanese quote in gold, centered, with ample white space, small English translation below in light gray"
+    },
+
+    "component_library": {
+      "specs_card": "Floating white card with 1px gold border, containing: Model name (Playfair Display, 24pt), specs list (Inter Light, 14pt), price range (gold color)",
+
+      "page_number": "Bottom outer corner, small numeral in gold, paired with thin gold line extending toward center",
+
+      "section_divider": "Thin gold horizontal line, 40% page width, centered",
+
+      "image_caption": "Right-aligned, Inter Light 10pt, warm gray color, maximum 2 lines",
+
+      "craft_badge": "Small circular badge with craft name, gold outline, for use on yacht interior images to indicate which crafts are featured"
+    }
+  },
+
+  "image_requirements": {
+    "hero_images": {
+      "resolution": "300dpi for print, 72dpi for digital",
+      "aspect_ratios": ["16:9", "4:3", "1:1", "2:3"],
+      "style": "Moody, atmospheric, warm lighting, shallow depth of field for details"
+    },
+    "source": "Generate using Midjourney v7 prompts from prompts_image_generation.md"
+  },
+
+  "export_settings": {
+    "print": {
+      "format": "PDF/X-4",
+      "color_profile": "Japan Color 2001 Coated",
+      "resolution": "300dpi"
+    },
+    "digital": {
+      "format": "PDF (Interactive)",
+      "color_profile": "sRGB",
+      "resolution": "150dpi"
+    },
+    "web": {
+      "format": "PNG/WebP",
+      "resolution": "2x for retina"
+    }
+  },
+
+  "figma_make_prompt_full": "Design a 32-page luxury yacht catalog combining Japanese cruisers (Lexus LY680, LY650, Yamaha EXULT 43, PRESTIGE F4.9, Toyota Ponam-35, Ponam-31) with traditional Japanese crafts. Style reference: 'not a hotel' catalog - characterized by oversized full-bleed photography, extreme negative space, minimal typography, and sophisticated restraint. Color palette: deep black (#1a1a1a), warm white, and gold accents (#C9A962). Typography: Playfair Display for English display, Shippori Mincho for Japanese headlines, Inter for body text. Layout: A4 portrait (210x297mm), 12-column grid, asymmetric compositions. Include: cover, philosophy spread, 6 yacht features (4 pages for flagships, 2 pages for compact models), crafts catalog (15 traditional crafts organized by category), 4 interior concept showcases, artisan story spread, and minimalist back cover. Emphasize the fusion of 千年の技 (thousand-year craftsmanship) with modern luxury yachting."
+}
