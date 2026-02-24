@@ -55,7 +55,7 @@
 - **船のイメージ**: 50ft級クルーザーのメインサロン
 
 ```
-Photorealistic interior of a luxury yacht main salon, kumiko lattice wooden ceiling panels with geometric patterns, gold leaf (kinpaku) accent wall with subtle shimmer, warm ambient lighting, cream leather sofa, teak wood flooring, large windows showing ocean view, ultra high-end interior design photography, soft natural light, 8K --ar 16:9 --v 7
+Photorealistic interior of a 50-foot luxury yacht main salon, salon approximately 3.8 meters wide with 1.95 meter ceiling height, kumiko lattice wooden ceiling panels with geometric patterns, gold leaf (kinpaku) accent wall with subtle shimmer, warm ambient lighting, cream leather sofa, teak wood flooring, large windows showing ocean view, ultra high-end interior design photography, soft natural light, 8K --ar 16:9 --v 7
 ```
 
 ---
@@ -66,7 +66,7 @@ Photorealistic interior of a luxury yacht main salon, kumiko lattice wooden ceil
 - **対応船**: Lexus LY680（68ft / 20.7m / ¥7.7億）— ダークバニッシュドウッド内装、3キャビン
 
 ```
-Photorealistic main salon of a 68-foot luxury yacht, dark burnished wood interior, spacious 3-cabin layout, gold leaf (kinpaku) accent wall panel with warm shimmer, Wajima-nuri lacquered dining table with deep glossy urushi finish and delicate maki-e gold powder design, Nishijin-ori silk fabric cushions in muted gold tones, warm ambient lighting, cream leather seating, large panoramic windows showing ocean horizon, ultra high-end interior design photography, soft natural light, 8K --ar 16:9 --v 7
+Photorealistic main salon of a 68-foot luxury yacht, salon approximately 4.5 meters wide with 2 meter ceiling height, dark burnished wood interior, 3-cabin layout, gold leaf (kinpaku) accent wall panel with warm shimmer, Wajima-nuri lacquered dining table with deep glossy urushi finish and delicate maki-e gold powder design, Nishijin-ori silk fabric cushions in muted gold tones, warm ambient lighting, cream leather seating, large panoramic windows showing ocean horizon, ultra high-end interior design photography, soft natural light, 8K --ar 16:9 --v 7
 ```
 
 ---
@@ -77,7 +77,7 @@ Photorealistic main salon of a 68-foot luxury yacht, dark burnished wood interio
 - **対応船**: Lexus LY650（65ft / 19.8m / ¥4.5億）— ホワイト基調、3ステートルーム
 
 ```
-Photorealistic main salon of a 65-foot sport yacht, white-toned interior with light wood accents, 3-stateroom layout, one wall section covered in textured Japanese washi paper with soft backlit glow, kumiko lattice wooden screen used as a decorative room divider with geometric pattern, simple Arita-yaki white ceramic vase on a low natural wood shelf, muted earth tones, abundant natural light from hull windows showing calm ocean, serene Japandi atmosphere, ultra high-end interior design photography, soft natural light, 8K --ar 16:9 --v 7
+Photorealistic main salon of a 65-foot sport yacht, salon approximately 4.2 meters wide with 2 meter ceiling height, white-toned interior with light wood accents, 3-stateroom layout, one wall section covered in textured Japanese washi paper with soft backlit glow, kumiko lattice wooden screen used as a decorative room divider with geometric pattern, simple Arita-yaki white ceramic vase on a low natural wood shelf, muted earth tones, abundant natural light from hull windows showing calm ocean, serene Japandi atmosphere, ultra high-end interior design photography, soft natural light, 8K --ar 16:9 --v 7
 ```
 
 ---
@@ -88,7 +88,7 @@ Photorealistic main salon of a 65-foot sport yacht, white-toned interior with li
 - **対応船**: Yamaha PRESTIGE M48（48ft / 14.79m / ¥2億）— 日本最高峰フラッグシップ
 
 ```
-Photorealistic main salon of a 48-foot Japanese flagship cruiser, well-designed cabin space, modern white and warm wood interior, Edo Kiriko cut glass pendant lights above the dinette casting subtle prismatic light patterns, a Satsuma Kiriko deep red glass decorative piece on the side shelf with beautiful bokashi gradient, sunlight streaming through side windows reflecting through the glass, bright and elegant atmosphere, teak flooring, ultra high-end interior design photography, soft natural light, 8K --ar 16:9 --v 7
+Photorealistic main salon of a 48-foot Japanese flagship cruiser, salon approximately 3.5 meters wide with 1.9 meter ceiling height, modern white and warm wood interior, Edo Kiriko cut glass pendant lights above the dinette casting subtle prismatic light patterns, a Satsuma Kiriko deep red glass decorative piece on the side shelf with beautiful bokashi gradient, sunlight streaming through side windows reflecting through the glass, bright and elegant atmosphere, teak flooring, ultra high-end interior design photography, soft natural light, 8K --ar 16:9 --v 7
 ```
 
 ---
@@ -99,7 +99,7 @@ Photorealistic main salon of a 48-foot Japanese flagship cruiser, well-designed 
 - **対応船**: Yamaha PRESTIGE F4.9（49ft / 14.9m / ¥3億）— 2024年新型、モダンデザイン
 
 ```
-Photorealistic main salon of a 49-foot modern sport cruiser, sleek contemporary interior with dark gray and white tones, 2024 next-generation design, one wall section with HOSOO Nishijin-ori textile panel in contemporary deep blue and gold geometric pattern, subtle gold leaf accent strip along the wall edge with hidden LED backlighting, modern low-profile furniture with clean lines, large windshield windows showing ocean, ultra high-end interior design photography, soft natural light, 8K --ar 16:9 --v 7
+Photorealistic main salon of a 49-foot modern sport cruiser, salon approximately 3.3 meters wide with 1.9 meter ceiling height, sleek contemporary interior with dark gray and white tones, 2024 next-generation design, one wall section with HOSOO Nishijin-ori textile panel in contemporary deep blue and gold geometric pattern, subtle gold leaf accent strip along the wall edge with hidden LED backlighting, modern low-profile furniture with clean lines, large windshield windows showing ocean, ultra high-end interior design photography, soft natural light, 8K --ar 16:9 --v 7
 ```
 
 ---
@@ -110,7 +110,7 @@ Photorealistic main salon of a 49-foot modern sport cruiser, sleek contemporary 
 - **船**: Lexus LY680（68ft / ¥7.7億）— ダークバニッシュドウッド内装、3キャビン
 
 ```
-Photorealistic master stateroom of a Lexus LY680 68-foot luxury yacht, dark burnished wood paneling, spacious cabin with Lexus refined design, gold leaf accent panel behind the headboard with subtle warm glow, Wajima-nuri lacquered nightstand with deep glossy finish, kumiko lattice decorative panel on the wall, premium leather and fabric details, large hull window showing ocean, warm intimate lighting, ultra high-end interior design photography, soft natural light, 8K --ar 16:9 --v 7
+Photorealistic master stateroom of a Lexus LY680 68-foot luxury yacht, stateroom approximately 3.5 meters wide with 1.95 meter ceiling height, dark burnished wood paneling, Lexus refined design, gold leaf accent panel behind the headboard with subtle warm glow, Wajima-nuri lacquered nightstand with deep glossy finish, kumiko lattice decorative panel on the wall, premium leather and fabric details, large hull window showing ocean, warm intimate lighting, ultra high-end interior design photography, soft natural light, 8K --ar 16:9 --v 7
 ```
 
 ---
@@ -121,7 +121,7 @@ Photorealistic master stateroom of a Lexus LY680 68-foot luxury yacht, dark burn
 - **船**: Lexus LY650（65ft / ¥4.5億）— ホワイト基調、3ステートルーム
 
 ```
-Photorealistic stateroom of a Lexus LY650 65-foot sport yacht, white-toned interior with Lexus clean design aesthetic, washi paper textured wall panel with soft backlight behind the bed, kumiko lattice screen near the entrance, simple Arita-yaki white ceramic bowl on the side shelf, light wood and white tones throughout, natural light from hull windows showing ocean reflections, calm and refined atmosphere, ultra high-end interior design photography, soft natural light, 8K --ar 16:9 --v 7
+Photorealistic stateroom of a Lexus LY650 65-foot sport yacht, stateroom approximately 3.2 meters wide with 1.95 meter ceiling height, white-toned interior with Lexus clean design aesthetic, washi paper textured wall panel with soft backlight behind the bed, kumiko lattice screen near the entrance, simple Arita-yaki white ceramic bowl on the side shelf, light wood and white tones throughout, natural light from hull windows showing ocean reflections, calm and refined atmosphere, ultra high-end interior design photography, soft natural light, 8K --ar 16:9 --v 7
 ```
 
 ---
@@ -132,7 +132,7 @@ Photorealistic stateroom of a Lexus LY650 65-foot sport yacht, white-toned inter
 - **船**: Yamaha PRESTIGE M48（48ft / ¥2億）— 日本最高峰フラッグシップ
 
 ```
-Photorealistic interior of a Yamaha PRESTIGE M48 48-foot flagship cruiser, modern Japanese marine interior with warm wood and white surfaces, Edo Kiriko cut glass pendant light above the dinette, Satsuma Kiriko deep red glass tumblers on the galley counter, a small shippo cloisonne enamel decorative plate on the shelf, windows showing ocean scenery, bright natural lighting, premium yacht cabin, ultra high-end interior design photography, soft natural light, 8K --ar 16:9 --v 7
+Photorealistic interior of a Yamaha PRESTIGE M48 48-foot flagship cruiser, cabin approximately 3.5 meters wide with 1.9 meter ceiling height, modern Japanese marine interior with warm wood and white surfaces, Edo Kiriko cut glass pendant light above the dinette, Satsuma Kiriko deep red glass tumblers on the galley counter, a small shippo cloisonne enamel decorative plate on the shelf, windows showing ocean scenery, bright natural lighting, premium yacht cabin, ultra high-end interior design photography, soft natural light, 8K --ar 16:9 --v 7
 ```
 
 ---
@@ -143,7 +143,7 @@ Photorealistic interior of a Yamaha PRESTIGE M48 48-foot flagship cruiser, moder
 - **船**: Yamaha PRESTIGE F4.9（49ft / ¥3億）— 2024年新型、モダンデザイン
 
 ```
-Photorealistic interior of a Yamaha PRESTIGE F4.9 49-foot sport cruiser, 2024 contemporary design with dark accents and white surfaces, HOSOO Nishijin-ori textile panel framed on the wall in geometric pattern, thin gold leaf accent line along the ceiling edge with subtle LED glow, modern built-in sofa with clean lines, large forward windshield showing open ocean, sophisticated modern atmosphere, ultra high-end interior design photography, soft natural light, 8K --ar 16:9 --v 7
+Photorealistic interior of a Yamaha PRESTIGE F4.9 49-foot sport cruiser, cabin approximately 3.3 meters wide with 1.9 meter ceiling height, 2024 contemporary design with dark accents and white surfaces, HOSOO Nishijin-ori textile panel framed on the wall in geometric pattern, thin gold leaf accent line along the ceiling edge with subtle LED glow, modern built-in sofa with clean lines, large forward windshield showing open ocean, sophisticated modern atmosphere, ultra high-end interior design photography, soft natural light, 8K --ar 16:9 --v 7
 ```
 
 ---
@@ -154,7 +154,7 @@ Photorealistic interior of a Yamaha PRESTIGE F4.9 49-foot sport cruiser, 2024 co
 - **船**: Toyota Ponam-35（35ft / ¥4,500万+）— プレミアムクルーザー
 
 ```
-Photorealistic cabin of a Toyota Ponam-35 35-foot premium cruiser, compact but well-appointed cabin space about 2.5 meters wide, built-in bench seating, a Wajima-nuri lacquered tray on the cabin table, one decorative kumiko lattice panel mounted on the wall about 30cm square, warm wood tones, porthole and small windows showing water, intimate and refined small yacht cabin, ultra high-end interior design photography, soft natural light, 8K --ar 16:9 --v 7
+Photorealistic cabin of a Toyota Ponam-35 35-foot premium cruiser, compact cabin only 2.5 meters wide with 1.85 meter ceiling height, built-in bench seating, a Wajima-nuri lacquered tray on the cabin table, one decorative kumiko lattice panel mounted on the wall about 30cm square, warm wood tones, porthole and small windows showing water, intimate and refined small yacht cabin, ultra high-end interior design photography, soft natural light, 8K --ar 16:9 --v 7
 ```
 
 ---
@@ -165,7 +165,7 @@ Photorealistic cabin of a Toyota Ponam-35 35-foot premium cruiser, compact but w
 - **船**: Toyota Ponam-31（31ft / ¥3,500万+）— スポーティ&ラグジュアリー
 
 ```
-Photorealistic cabin of a Toyota Ponam-31 31-foot sporty cruiser, compact V-berth cabin, small galley area, a single Edo Kiriko cut glass tumbler on the counter, Nishijin-ori fabric cushions on the bench seat, very compact realistic small boat cabin proportions, natural light from overhead hatch, clean and refined with select craft accents, ultra high-end interior design photography, soft natural light, 8K --ar 16:9 --v 7
+Photorealistic cabin of a Toyota Ponam-31 31-foot sporty cruiser, very compact cabin only 2.2 meters wide with 1.8 meter ceiling height, V-berth layout, small galley area, a single Edo Kiriko cut glass tumbler on the counter, Nishijin-ori fabric cushions on the bench seat, natural light from overhead hatch, clean and refined with select craft accents, ultra high-end interior design photography, soft natural light, 8K --ar 16:9 --v 7
 ```
 
 ---
