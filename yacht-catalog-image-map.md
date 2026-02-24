@@ -172,7 +172,7 @@ Photorealistic cabin of a Toyota Ponam-31 31-foot sporty cruiser, very compact c
 
 ## B. 写真素材（10枚）— 伝統工芸・職人
 
-ストックフォト（Getty / Adobe Stock / PIXTA）または工房からの素材提供で調達。
+ストックフォト（Getty / Adobe Stock / PIXTA）または工房からの素材提供で調達。見つからない場合はMidjourneyプロンプトで代替生成。
 
 ---
 
@@ -181,12 +181,24 @@ Photorealistic cabin of a Toyota Ponam-31 31-foot sporty cruiser, very compact c
 - **要素ID**: `shape_811de673`
 - **内容**: 金箔の表面テクスチャ。極薄の箔が光を反射する美しいクローズアップ
 - **検索キーワード**: 「金沢箔 クローズアップ」「gold leaf texture close-up」「kanazawa kinpaku」
+- **Midjourney代替**:
+```
+Extreme close-up macro photography of Kanazawa gold leaf surface, ultra-thin kinpaku foil catching warm light, subtle wrinkles and texture of hand-applied gold leaf, golden shimmer and reflection, black background, studio product photography, soft natural light, 8K --ar 16:9 --v 7
+```
+
+---
 
 ### B-02: S04 — 職人の手仕事クローズアップ
 - **スライド**: S04 VISION opener（右側）
 - **要素ID**: `shape_359f1a1a`
 - **内容**: 職人の手が工芸品を制作している場面。漆塗り or 金箔押し
 - **検索キーワード**: 「日本 職人 手仕事」「Japanese artisan hands craft」「漆職人」
+- **Midjourney代替**:
+```
+Close-up of Japanese artisan hands carefully applying urushi lacquer with a brush onto a wooden surface, traditional workshop setting, warm ambient lighting, aged skilled hands with precision, dark lacquer glistening, shallow depth of field, documentary photography style, soft natural light, 8K --ar 16:9 --v 7
+```
+
+---
 
 ### B-03: S07 — HOSOO西陣織テキスタイル
 - **スライド**: S07 Brand Adoption（右側）
@@ -194,18 +206,36 @@ Photorealistic cabin of a Toyota Ponam-31 31-foot sporty cruiser, very compact c
 - **内容**: HOSOOの150cm幅西陣織テキスタイルの美しいクローズアップ
 - **検索キーワード**: 「HOSOO Nishijin textile」「西陣織 テキスタイル」
 - **参考**: HOSOO公式サイトのプレス素材が最適
+- **Midjourney代替**:
+```
+Close-up of luxurious Nishijin-ori silk textile, intricate geometric weave pattern in deep indigo and gold metallic thread, rich fabric texture visible, draped elegantly showing the sheen of silk brocade, studio product photography, soft natural light, 8K --ar 16:9 --v 7
+```
+
+---
 
 ### B-04: S08 — 金箔職人 施工シーン
 - **スライド**: S08 SERVICE opener（右側）
 - **要素ID**: `shape_6a815b24`
 - **内容**: 金箔職人が壁面に箔を貼っている作業風景
 - **検索キーワード**: 「金箔 施工」「gold leaf application artisan」「箔一 施工」
+- **Midjourney代替**:
+```
+Japanese artisan applying gold leaf to a wall panel, carefully placing ultra-thin kinpaku sheet with bamboo chopsticks, traditional workshop with warm lighting, gold leaf sheets on the work table, focused craftsman in traditional clothing, documentary photography, soft natural light, 8K --ar 16:9 --v 7
+```
+
+---
 
 ### B-05: S11 — 輪島塗修繕シーン
 - **スライド**: S11 Aftercare（右側）
 - **要素ID**: `shape_4e5fc764`
 - **内容**: 輪島塗の漆器を修繕（塗り直し）している職人の手元
 - **検索キーワード**: 「輪島塗 修繕」「Wajima lacquerware repair」「漆 塗り直し」
+- **Midjourney代替**:
+```
+Close-up of Japanese lacquerware artisan repairing a Wajima-nuri bowl, carefully re-applying urushi lacquer with a fine brush, dark glossy surface of the lacquerware, traditional workshop with tools and materials, skilled aged hands, warm intimate lighting, documentary photography, soft natural light, 8K --ar 16:9 --v 7
+```
+
+---
 
 ### B-06〜B-09: S19 — 職人4人のシーン
 - **スライド**: S19 Artisan Scenes（4分割グリッド）
@@ -217,8 +247,36 @@ Photorealistic cabin of a Toyota Ponam-31 31-foot sporty cruiser, very compact c
 | B-08 | `shape_97de6dc1` | 切子職人がガラスを研磨するシーン | 「江戸切子 研磨」「Edo Kiriko grinding」 |
 | B-09 | `shape_da6416dd` | 組子職人が木片を組み合わせるシーン | 「組子 職人」「kumiko craftsman」 |
 
+**Midjourney代替（各 --ar 1:1 で4分割グリッド用）**:
+
+B-06:
+```
+Close-up of Japanese kinpaku artisan hands lifting ultra-thin gold leaf sheet with bamboo chopsticks, golden foil catching light, traditional workshop, warm lighting, documentary photography, soft natural light, 8K --ar 1:1 --v 7
+```
+
+B-07:
+```
+Close-up of Japanese maki-e artisan sprinkling fine gold powder onto wet lacquer surface with a bamboo tube, tiny golden particles floating in the air, dark lacquered surface below, traditional workshop, warm lighting, documentary photography, soft natural light, 8K --ar 1:1 --v 7
+```
+
+B-08:
+```
+Close-up of Edo Kiriko glass cutting artisan grinding intricate geometric pattern into clear crystal glass on a spinning wheel, sparks of glass dust, focused hands holding the glass precisely, workshop setting, documentary photography, soft natural light, 8K --ar 1:1 --v 7
+```
+
+B-09:
+```
+Close-up of kumiko woodwork artisan fitting tiny wooden pieces together without nails or glue, intricate geometric lattice pattern taking shape, precision hand craftsmanship, traditional Japanese workshop, warm wood tones, documentary photography, soft natural light, 8K --ar 1:1 --v 7
+```
+
+---
+
 ### B-10: 予備
 - 輪島キリモトの制作風景、または能作（高岡銅器）の鋳造シーン
+- **Midjourney代替**:
+```
+Japanese bronze casting artisan pouring molten metal into a traditional mold at Takaoka foundry, glowing orange liquid metal, dramatic lighting from the furnace, skilled craftsman in protective gear, sparks and heat haze visible, documentary photography, soft natural light, 8K --ar 16:9 --v 7
+```
 
 ---
 
