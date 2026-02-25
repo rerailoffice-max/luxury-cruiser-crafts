@@ -290,6 +290,10 @@ Japanese bronze casting artisan pouring molten metal into a traditional mold at 
   - 夕暮れの海にたたずむヨットのシルエット
 - **検索キーワード**: 「luxury yacht ocean」「Lexus LY680 press photo」
 - **注意**: 半透明オーバーレイをかけてテキスト視認性を確保
+- **Midjourney代替**:
+```
+Aerial photography of a 60-foot luxury motor yacht cruising on calm deep blue ocean at golden hour, white hull with sleek modern lines, gentle wake trail behind, warm sunset light reflecting on the water surface, cinematic wide angle, luxury yacht photography, soft natural light, 8K --ar 16:9 --v 7
+```
 
 ---
 
@@ -301,12 +305,48 @@ Japanese bronze casting artisan pouring molten metal into a traditional mold at 
 - **内容**: 金箔・蒔絵・組子・切子の4分割グリッド
 - **制作方法**: B-06〜B-09の写真素材を4分割に配置（Canva / Figma）
 - **レイアウト**: 2×2グリッド、各セルに薄いゴールド枠線
+- **Midjourney代替（方法1）**: B-06〜B-09のMJプロンプトで個別に `--ar 1:1` で生成 → Canvaで2×2合成
+- **Midjourney代替（方法2・1枚で生成）**:
+```
+Four-panel grid of Japanese traditional crafts, top-left: gold leaf artisan lifting kinpaku with bamboo chopsticks, top-right: maki-e artisan sprinkling gold powder on lacquer, bottom-left: Edo Kiriko glass cutting on spinning wheel, bottom-right: kumiko woodwork artisan fitting geometric pieces, each panel showing close-up of skilled hands at work, warm workshop lighting, documentary photography, soft natural light, 8K --ar 16:9 --v 7
+```
 
 ### D-02: S25 — 6モデルコラージュ（LINEUP扉）
 - **スライド**: S25 LINEUP opener
 - **要素ID**: `shape_7212dd19`
 - **内容**: 6モデル（LY680, LY650, PRESTIGE M48, F4.9, Ponam-35, Ponam-31）の外観
 - **制作方法**: 各メーカー公式サイトのプレス写真を2×3グリッドに配置
+- **Midjourney代替（各モデル個別に生成 → Canvaで2×3合成）**:
+
+D-02a（Lexus LY680 68ft）:
+```
+Side profile of a Lexus LY680 68-foot luxury yacht cruising on calm ocean, sleek white hull with dark accents, flybridge design, elegant and powerful silhouette, clear sky, luxury yacht photography, soft natural light, 8K --ar 16:9 --v 7
+```
+
+D-02b（Lexus LY650 65ft）:
+```
+Side profile of a Lexus LY650 65-foot sport yacht on open water, distinctive Mark Templin design with flowing lines, white hull, sporty and elegant profile, calm sea with reflections, luxury yacht photography, soft natural light, 8K --ar 16:9 --v 7
+```
+
+D-02c（Yamaha PRESTIGE M48 48ft）:
+```
+Side profile of a Yamaha PRESTIGE M48 48-foot flagship cruiser on calm ocean, Japanese premium yacht design, white hull with modern lines, flybridge, refined proportions, luxury yacht photography, soft natural light, 8K --ar 16:9 --v 7
+```
+
+D-02d（Yamaha PRESTIGE F4.9 49ft）:
+```
+Side profile of a Yamaha PRESTIGE F4.9 49-foot sport cruiser on ocean, 2024 modern design, sleek contemporary lines, white hull with dark accents, dynamic and sophisticated silhouette, luxury yacht photography, soft natural light, 8K --ar 16:9 --v 7
+```
+
+D-02e（Toyota Ponam-35 35ft）:
+```
+Side profile of a Toyota Ponam-35 35-foot premium cruiser on calm bay, compact yet elegant Japanese cruiser design, white hull, clean proportions, coastal scenery background, luxury yacht photography, soft natural light, 8K --ar 16:9 --v 7
+```
+
+D-02f（Toyota Ponam-31 31ft）:
+```
+Side profile of a Toyota Ponam-31 31-foot sporty cruiser on ocean, compact sporty design, white hull with dynamic lines, agile silhouette, clear water, luxury yacht photography, soft natural light, 8K --ar 16:9 --v 7
+```
 
 ---
 
@@ -316,7 +356,11 @@ Japanese bronze casting artisan pouring molten metal into a traditional mold at 
 - **スライド**: S33 Company（右側）
 - **内容**: 代表者のビジネスポートレート
 - **サイズ**: 正方形 or 3:4 推奨
-- **注意**: クライアントから提供を受ける
+- **注意**: クライアントから提供を受ける（以下はダミー用プレースホルダー）
+- **Midjourney代替（ダミー用）**:
+```
+Professional business portrait of a Japanese male executive in his 40s, wearing a dark navy suit with subtle texture, confident calm expression, neutral gray studio background, upper body shot, corporate headshot photography, soft natural light, 8K --ar 3:4 --v 7
+```
 
 ---
 
@@ -324,7 +368,13 @@ Japanese bronze casting artisan pouring molten metal into a traditional mold at 
 
 - **要素ID**: `shape_147112db`
 - **制作方法**: A-02〜A-05（4コンセプトの内装画像）を4分割グリッドに配置
-- ※ A-02〜A-05の生成後にCanva等で合成する
+- ※ A-02〜A-05の生成後にCanva等で2×2グリッドに合成する
+- **Midjourney代替**: 不要（A-02〜A-05のプロンプトで個別生成した4枚をCanvaで合成）
+- **合成用素材**:
+  - 左上: A-02（CONCEPT 01 金と漆 — LY680）
+  - 右上: A-03（CONCEPT 02 禅 — LY650）
+  - 左下: A-04（CONCEPT 03 海と光 — PRESTIGE M48）
+  - 右下: A-05（CONCEPT 04 伝統と革新 — F4.9）
 
 ---
 
