@@ -446,3 +446,272 @@ Three luxury yachts silhouette against golden sunset sky, Lexus LY680, Yamaha EX
 
 *作成日: 2026年1月27日*
 *更新: 実在クルーザーモデル対応版*
+*更新: 2026年3月3日 — v3対応（マリーナ・井波彫刻・博多織・ライフスタイル追加）*
+
+---
+---
+
+# v3 追加プロンプト — マリーナ・新工芸・ライフスタイル
+
+> カタログ v3 で追加されたスライド用のプロンプト。
+> 既存プロンプト（LY680-1〜4, LY650-1〜4, EXULT43-1〜4, F49-1〜4, Ponam35-1〜3）はそのまま使用可能。
+
+---
+
+## マリーナ関連
+
+### MARINA-1. 横浜ベイサイドマリーナ 夕景 + 大型クルーザー（S10用）
+```
+Yokohama Bayside Marina at golden hour, largest marina in Kanto region Japan, rows of luxury yachts and cruisers at modern floating docks, 68-foot Lexus yacht prominently moored at premium berth, calm water reflections, Yokohama skyline in background, warm sunset light, luxury lifestyle, cinematic wide shot, --ar 16:9 --v 7 --s 250 --q 2
+```
+
+### MARINA-2. LY680 at 横浜ベイサイド 桟橋（S11用）
+```
+Lexus LY680 luxury yacht moored at premium marina berth, 68 feet flagship yacht, side profile view from dock, polished white hull gleaming in afternoon sun, marina facilities and other yachts in soft background, dock cleats and mooring lines visible, professional maritime photography, --ar 16:9 --v 7 --s 250 --q 2
+```
+
+### MARINA-3. シーボニアマリーナ 小網代湾（S17用）
+```
+Riviera Seabornia Marina in Koajiro Bay, Miura Peninsula Japan, serene protected bay surrounded by lush green hills, exclusive member-only marina, several premium cruisers moored in calm turquoise water, traditional Japanese fishing village atmosphere meets luxury yachting, peaceful morning light, drone aerial view, --ar 16:9 --v 7 --s 250 --q 2
+```
+
+### MARINA-4. EXULT 43 at シーボニア 桟橋（S18用）
+```
+Yamaha EXULT 43 Japanese flagship cruiser moored at exclusive marina in protected bay, 43 feet, white hull with elegant lines, green forested hills reflecting in calm water, wooden dock, premium yacht lifestyle in Japan, warm natural lighting, --ar 16:9 --v 7 --s 250 --q 2
+```
+
+### MARINA-5. 東京湾 MARINA MAP イメージ（S09参考）
+```
+Elegant minimalist map illustration of Tokyo Bay area, dark navy background, gold line art showing coastline of Tokyo, Chiba, and Kanagawa, two golden pin markers showing marina locations, one at Yokohama and one at Miura Peninsula, subtle compass rose, luxury cartographic style, clean vector aesthetic, --ar 16:9 --v 7 --s 200 --q 2
+```
+
+---
+
+## 井波彫刻 — 内装
+
+### INAMI-1. 井波彫刻 壁面レリーフ（LY680 バーラウンジ用 S14）
+```
+Lexus LY680 yacht bar lounge interior, dramatic wall panel featuring Inami wood carving relief, intricate Japanese flowers and birds carved in deep relief from camphor wood, 5-10cm depth creating dramatic shadows, warm spotlight illuminating the carving texture, combined with Kanazawa gold leaf accent wall, Wajima lacquer bar counter, luxury yacht interior, --ar 16:9 --v 7 --s 250 --q 2
+```
+
+### INAMI-2. 井波彫刻 ドア装飾（S14用）
+```
+Luxury yacht cabin door with Inami wood carving decoration, Japanese traditional sukashibori openwork carving technique, delicate cherry blossom pattern carved through keyaki zelkova wood, backlit creating beautiful shadow patterns, black lacquer door frame, gold hardware, yacht interior corridor, --ar 16:9 --v 7 --s 250 --q 2
+```
+
+### INAMI-3. 井波彫刻 キャビン壁面（EXULT 43用 S20）
+```
+Yamaha EXULT 43 yacht cabin interior, wall panel with Inami wood carving, wave and pine tree motif in camphor wood, Japanese traditional deep relief technique, warm indirect lighting revealing carving depth, Nishijin silk bedding, compact luxury space, --ar 16:9 --v 7 --s 250 --q 2
+```
+
+### INAMI-4. 井波彫刻 F4.9用（S24）
+```
+Yamaha PRESTIGE F4.9 yacht main salon, large Inami wood carving feature wall, dramatic Japanese landscape scene carved in deep relief, mountains rivers and clouds, 250 years of wood carving tradition, modern yacht interior surrounding traditional art, LED accent lighting highlighting texture, --ar 16:9 --v 7 --s 250 --q 2
+```
+
+---
+
+## 博多織 — 内装
+
+### HAKATA-1. 博多織 ソファ（LY680 メインサロン用 S12）
+```
+Lexus LY680 yacht main salon detail shot, luxurious sofa upholstered in Hakata-ori traditional Japanese textile, 770-year-old weaving tradition from Fukuoka, visible tight warp thread texture creating durable elegant fabric, subtle gold and silver thread patterns, paired with Kanazawa gold leaf wall and Wajima lacquer table, warm ambient lighting, --ar 16:9 --v 7 --s 250 --q 2
+```
+
+### HAKATA-2. 博多織 クッション（EXULT 43用 S19）
+```
+Yamaha EXULT 43 yacht salon seating area, premium cushions covered in Hakata-ori textile, traditional Japanese weaving from Fukuoka, rich silk texture with geometric kenjo pattern, deep indigo and gold colorway, arranged on modern yacht settee, Satsuma kiriko pendant lamp above, ocean view through window, --ar 16:9 --v 7 --s 250 --q 2
+```
+
+### HAKATA-3. 博多織 デッキクッション（S16用）
+```
+Luxury yacht aft deck lounge at sunset, outdoor cushions covered in weather-resistant Hakata-ori inspired textile, traditional Japanese geometric patterns, paired with Edo kiriko glass lanterns and Takaoka bronze centerpiece, Wajima lacquer outdoor table, Tokyo Bay sunset background, sophisticated lifestyle, --ar 16:9 --v 7 --s 250 --q 2
+```
+
+### HAKATA-4. 博多織 F4.9ソファ（S24用）
+```
+Yamaha PRESTIGE F4.9 yacht salon, contemporary sofa upholstered in Hakata-ori textile, modern interpretation of traditional 770-year-old weaving, abstract geometric pattern in muted earth tones, paired with Inami wood carving wall panel and Wajima lacquer furniture, clean modern lines meet traditional craft, --ar 16:9 --v 7 --s 250 --q 2
+```
+
+---
+
+## ライフスタイル
+
+### LIFE-1. LY680 デッキから東京湾（S16用）
+```
+View from Lexus LY680 yacht upper deck at sunset, departing Yokohama Bayside Marina into Tokyo Bay, Yokohama Minato Mirai skyline visible in distance, Edo kiriko crystal glasses with champagne on Wajima lacquer tray in foreground, Hakata-ori cushions on deck seating, golden hour light, aspirational luxury lifestyle, cinematic composition, --ar 16:9 --v 7 --s 250 --q 2
+```
+
+### LIFE-2. EXULT 43 小網代湾出航（S21用）
+```
+Yamaha EXULT 43 cruising out of Koajiro Bay Miura Peninsula, green forested hills on both sides, calm sea, heading toward Izu Islands, afternoon sunlight, elegant white hull cutting through water, Japanese flagship cruiser in its natural element, drone following shot, cinematic, --ar 16:9 --v 7 --s 250 --q 2
+```
+
+### LIFE-3. EXULT 43 デッキラウンジ夕景（S21用）
+```
+Yamaha EXULT 43 aft deck lounge at golden hour, anchored near Jogashima Island Miura, Edo kiriko cut glass lanterns casting amber geometric light patterns, Takaoka bronze ship bell sculpture, Hakata-ori deck cushions, Wajima lacquer serving tray with sake set, peaceful sea background, ultimate Japanese luxury on water, --ar 16:9 --v 7 --s 250 --q 2
+```
+
+---
+
+## 職人シーン — 新規
+
+### ARTISAN-INAMI. 井波彫刻 職人（S27用）
+```
+Inami wood carving master artisan at work in traditional workshop, Toyama Prefecture Japan, using one of 200 specialized chisels to carve intricate relief in camphor wood, wood shavings curling, focused hands, natural workshop light, 250 years of tradition, documentary style, --ar 16:9 --v 7 --s 200 --q 2
+```
+
+### ARTISAN-HAKATA. 博多織 職機（S27用）
+```
+Hakata-ori textile artisan working at traditional wooden loom, Fukuoka Japan, hundreds of silk warp threads under tension, shuttle passing through creating tight weave, 770 years of tradition, golden silk thread visible, concentrated craftsmanship, traditional workshop atmosphere, warm natural light, --ar 16:9 --v 7 --s 200 --q 2
+```
+
+---
+
+## ディテール・クローズアップ（S15, S22用）
+
+### DETAIL-1. 金沢箔 光の反射
+```
+Extreme close-up of Kanazawa gold leaf applied to yacht interior wall panel, micro-wrinkles in 0.1 micron thin gold catching and scattering light, warm golden glow, abstract texture, photographic macro lens, shallow depth of field, --ar 1:1 --v 7 --s 250 --q 2
+```
+
+### DETAIL-2. 博多織 織り目テクスチャ
+```
+Macro close-up of Hakata-ori textile weave structure, dense warp threads creating rigid durable fabric, subtle sheen of silk, traditional Japanese geometric pattern visible, 770 years of weaving tradition, fabric texture photography, --ar 1:1 --v 7 --s 250 --q 2
+```
+
+### DETAIL-3. 江戸切子 カットパターン
+```
+Macro close-up of Edo kiriko cut glass, deep precise cuts in blue colored glass layer, light refracting through geometric kagome basket pattern, rainbow light dispersion, crystal clarity, glass art photography, --ar 1:1 --v 7 --s 250 --q 2
+```
+
+### DETAIL-4. 井波彫刻 ノミ跡
+```
+Close-up of Inami wood carving surface texture, intricate chisel marks creating depth and shadow, Japanese flower petal detail carved in camphor wood, natural wood grain visible, craftsmanship detail, warm side lighting revealing relief depth, --ar 1:1 --v 7 --s 250 --q 2
+```
+
+### DETAIL-5. 輪島塗 漆の深み
+```
+Macro close-up of Wajima lacquerware surface, deep glossy black urushi lacquer finish, subtle reflection showing surroundings, 124-step process result, centuries-old technique, elegant depth and warmth, luxury material photography, --ar 1:1 --v 7 --s 250 --q 2
+```
+
+### DETAIL-6. 薩摩切子 ぼかしグラデーション
+```
+Close-up of Satsuma kiriko red glass, thick colored glass layer showing unique gradation bokashi effect where cut meets uncut surface, phantom cut glass of Kagoshima, deep crimson to clear transition, light passing through, --ar 1:1 --v 7 --s 250 --q 2
+```
+
+### DETAIL-7. 高岡銅器 鋳造の質感
+```
+Close-up of Takaoka copperware surface, traditional casting texture, 400 years of metalwork tradition, warm patina developing naturally, intricate relief detail, bronze alloy surface catching light, Japanese metal craft, --ar 1:1 --v 7 --s 250 --q 2
+```
+
+### DETAIL-8. 七宝焼 ガラス質釉薬
+```
+Macro close-up of Japanese cloisonne enamel shippo-yaki, vivid glass enamel surface with fine gold wire partitions, brilliant blue green and red colors, smooth glossy finish, Meiji era world-class technique, decorative art photography, --ar 1:1 --v 7 --s 250 --q 2
+```
+
+---
+
+## NanoBanana Pro 用（日本語版 — v3追加分）
+
+### マリーナ
+
+```
+横浜ベイサイドマリーナの夕景、関東最大級のマリーナ、近代的な浮き桟橋にラグジュアリーヨットが並ぶ、68フィートのレクサスヨットがプレミアムバースに停泊、穏やかな水面の反射、背景に横浜のスカイライン、温かい夕日の光、シネマティック
+```
+
+```
+リビエラシーボニアマリーナ、三浦半島小網代湾、緑豊かな丘に囲まれた静かな入り江、会員制マリーナにプレミアムクルーザーが停泊、穏やかなターコイズブルーの海、朝の光、ドローン空撮
+```
+
+### 井波彫刻 内装
+
+```
+レクサスLY680ヨット バーラウンジ内装、壁面に井波彫刻の木彫レリーフパネル、クスノキに花鳥を深彫りした精緻な浮き彫り、深さ5-10cmの立体的な影が生まれる、スポットライトが彫刻のテクスチャを照らす、金沢金箔アクセントウォール、輪島塗バーカウンター
+```
+
+```
+ヤマハ EXULT 43 ヨットキャビン内装、壁面パネルに井波彫刻、波と松の文様をクスノキに彫刻、伝統的な深彫り技法、温かい間接照明が彫りの深さを際立たせる、西陣織シルクベッドリネン、コンパクトラグジュアリー空間
+```
+
+### 博多織 内装
+
+```
+レクサスLY680ヨット メインサロン ディテール、博多織で張られた豪華なソファ、福岡の770年の織物伝統、経糸の張力が生む堅牢で上品なファブリック、微かな金銀糸のパターン、金沢金箔壁と輪島塗テーブルとの組み合わせ、温かいアンビエント照明
+```
+
+```
+ヤマハ EXULT 43 ヨットサロン座席エリア、博多織テキスタイルのプレミアムクッション、献上模様の伝統的幾何学パターン、藍と金の配色、モダンなヨットソファに配置、上部に薩摩切子ペンダントランプ、窓から海の眺め
+```
+
+### ライフスタイル
+
+```
+レクサスLY680ヨット上層デッキからの夕景、横浜ベイサイドマリーナから東京湾へ出航、遠くに横浜みなとみらいスカイライン、前景に輪島塗トレイの上の江戸切子シャンパングラス、博多織デッキクッション、ゴールデンアワーの光、憧れのラグジュアリーライフスタイル
+```
+
+```
+ヤマハ EXULT 43 小網代湾を出航するシーン、三浦半島の両側に緑の丘、穏やかな海、伊豆七島方面へ向かう、午後の日差し、エレガントな白い船体が水を切る、日本最高峰クルーザーの本領、ドローン追従ショット
+```
+
+### 職人シーン
+
+```
+井波彫刻の名匠、富山県の伝統的工房で作業中、200本の専用ノミの中から一本を選びクスノキに精緻なレリーフを彫る、木の削りカスが渦巻く、集中する手元、250年の伝統、ドキュメンタリースタイル
+```
+
+```
+博多織の職人が伝統的な木製織機で作業、福岡、何百本もの絹の経糸にテンションをかけ、シャトルが通過し緻密な織りを生む、770年の伝統、金色の絹糸が見える、集中した職人技、温かい自然光
+```
+
+---
+
+## v3 画像制作リスト（優先順位付き）
+
+### 必須（v3で新規追加が必要な画像）— 計15枚
+
+| # | プロンプトID | 画像内容 | 使用スライド |
+|---|------------|---------|------------|
+| 1 | MARINA-1 | 横浜ベイサイドマリーナ夕景 | S10 |
+| 2 | MARINA-2 | LY680 at 横浜ベイサイド桟橋 | S11 |
+| 3 | MARINA-3 | シーボニアマリーナ小網代湾 | S17 |
+| 4 | MARINA-4 | EXULT 43 at シーボニア | S18 |
+| 5 | INAMI-1 | 井波彫刻 壁面レリーフ（LY680） | S14 |
+| 6 | INAMI-3 | 井波彫刻 キャビン（EXULT 43） | S20 |
+| 7 | HAKATA-1 | 博多織 ソファ（LY680） | S12 |
+| 8 | HAKATA-2 | 博多織 クッション（EXULT 43） | S19 |
+| 9 | LIFE-1 | LY680 デッキ東京湾夕景 | S16 |
+| 10 | LIFE-3 | EXULT 43 デッキラウンジ夕景 | S21 |
+| 11 | ARTISAN-INAMI | 井波彫刻職人 | S27 |
+| 12 | ARTISAN-HAKATA | 博多織職人 | S27 |
+| 13 | DETAIL-2 | 博多織テクスチャ | S15, S22 |
+| 14 | DETAIL-4 | 井波彫刻ノミ跡 | S15 |
+| 15 | MARINA-5 | 東京湾MAPイメージ | S09 |
+
+### 既存プロンプトから流用可能 — 計10枚
+
+| # | 既存プロンプトID | 画像内容 | 使用スライド |
+|---|----------------|---------|------------|
+| 1 | LY680-1 | LY680 メインサロン（金と漆） | S12 |
+| 2 | LY680-2 | LY680 マスターキャビン（螺鈿） | S13 |
+| 3 | LY680-4 | LY680 バーラウンジ | S14 |
+| 4 | EXULT43-1 | EXULT 43 メインサロン（海と光） | S19 |
+| 5 | EXULT43-2 | EXULT 43 ヘルムステーション | S20 |
+| 6 | EXULT43-4 | EXULT 43 デッキラウンジ | S21 |
+| 7 | LY650-1 | LY650 ZENサロン | S23 |
+| 8 | F49-1 | F4.9 イノベーションサロン | S24 |
+| 9 | Ponam35-1 | Ponam-35 キャビン | S25 |
+| 10 | 職人シーン1 | 金箔職人 | S27 |
+
+### ディテール（追加生成推奨）— 計6枚
+
+| # | プロンプトID | 画像内容 | 使用スライド |
+|---|------------|---------|------------|
+| 1 | DETAIL-1 | 金沢箔 光の反射 | S15 |
+| 2 | DETAIL-3 | 江戸切子 カットパターン | S15, S22 |
+| 3 | DETAIL-5 | 輪島塗 漆の深み | S15 |
+| 4 | DETAIL-6 | 薩摩切子 ぼかし | S22 |
+| 5 | DETAIL-7 | 高岡銅器 質感 | S22 |
+| 6 | DETAIL-8 | 七宝焼 釉薬 | S22 |
+
+**合計: 新規15枚 + 既存流用10枚 + ディテール6枚 = 31枚**
