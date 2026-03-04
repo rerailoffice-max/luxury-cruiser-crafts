@@ -33,16 +33,16 @@
 
 # PART 0: COVER & INDEX（S01〜S03）
 
-## S01: 表紙 — 夕暮れクルーザーシルエット
+## S01: 表紙 — 夏の海・ドローン空撮
 
 ### Midjourney
 ```
-Luxury yacht silhouette against dramatic golden sunset over Tokyo Bay, elegant 68-foot cruiser anchored in calm water, deep orange and gold sky reflected on mirror-like sea surface, cinematic wide shot, ultra high-end luxury lifestyle, dark moody atmosphere, --ar 16:9 --v 7 --s 250 --q 2
+Aerial drone shot of luxury 68-foot yacht floating on calm turquoise summer ocean, bright blue sky, small group of elegantly dressed people visible enjoying champagne on the upper deck, yacht seen from above at slight angle showing full hull and deck layout, crystal clear shallow water with light patterns on seafloor, vast open ocean surrounding the yacht, scattered white clouds casting soft shadows on water surface, Japanese luxury cruiser summer lifestyle, cinematic wide aerial photography, ultra realistic, --ar 16:9 --v 7 --s 250 --q 2
 ```
 
 ### NanoBanana Pro
 ```
-東京湾の劇的な夕焼けに浮かぶラグジュアリーヨットのシルエット、68フィートクルーザーが穏やかな水面に停泊、深いオレンジとゴールドの空が鏡のような海面に反射、シネマティックワイドショット、超ハイエンドラグジュアリーライフスタイル
+ドローン空撮、明るい青空の下の穏やかなターコイズブルーの夏の海に浮かぶ68フィートラグジュアリーヨット、上部デッキでシャンパンを楽しむエレガントな人々が小さく見える、やや斜め上から船体全体とデッキレイアウトが見える構図、透き通った浅い海水と海底に落ちる光の模様、ヨットを取り囲む広大な海、白い雲が水面に柔らかい影を落とす、シネマティック空撮
 ```
 
 ## S02: コンセプト — 金箔壁パネル
