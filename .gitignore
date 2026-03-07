@@ -1,0 +1,19 @@
+# OS
+.DS_Store
+
+# Node
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# env
+.env*
+
+# Vercel
+.vercel
+
+# 一時ファイル
+lp/public/images/inbox/
+lp/public/images/new_inbox/
