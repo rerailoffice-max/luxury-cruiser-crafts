@@ -3,11 +3,12 @@
 // ============================================================
 
 // ── 設定 ──────────────────────────────────────────────────────
+// ADMIN_EMAIL は複数宛に送る場合カンマ区切りで列挙可 (例: "a@x.com, b@x.com, c@x.com")
 var CONFIG = {
-  ADMIN_EMAIL: "your-email@example.com",       // 管理者通知先（要変更）
+  ADMIN_EMAIL: "REPLACE_WITH_ADMIN_EMAILS",     // 管理者通知先（要変更 / カンマ区切りで複数可）
   SHEET_NAME: "お問い合わせ",
   FROM_NAME: "KOGEI CODE",
-  DOCUMENT_URL: "https://example.com/document", // 資料PDF等のURL（要変更）
+  DOCUMENT_URL: "REPLACE_WITH_DOCUMENT_URL",    // 資料PDF等のURL（要変更）
 };
 
 // ── 関心内容ラベル変換 ────────────────────────────────────────

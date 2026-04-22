@@ -5,29 +5,25 @@ import FadeIn from "./FadeIn";
 
 const SHIPS = [
   {
-    name: "Yamaha EXULT 43",
-    position: "Phase 1 メイン",
-    badge: "NOW OPEN",
+    name: "Azimut Grande 27 Metri",
+    badge: "FLAGSHIP",
     badgeColor: "bg-gold text-bg-primary",
-    image: "/images/fleet-exult43.jpg",
+    image: "/images/fleet-azimut-grande-27m.jpg",
     specs: [
-      { label: "全長", value: "14.84m" },
+      { label: "全長", value: "26.78m (88ft)" },
       { label: "定員", value: "15名" },
-      { label: "キャビン", value: "2室" },
-      { label: "マリーナ", value: "横浜ベイサイドマリーナ" },
+      { label: "キャビン", value: "5室" },
     ],
   },
   {
     name: "Lexus LY680",
-    position: "フラッグシップ",
     badge: "COMING SOON",
     badgeColor: "border border-gold/40 text-gold",
     image: "/images/fleet-ly680.jpg",
     specs: [
-      { label: "全長", value: "20.66m" },
+      { label: "全長", value: "20.66m (68ft)" },
       { label: "定員", value: "15名" },
       { label: "キャビン", value: "3室" },
-      { label: "マリーナ", value: "シーボニアマリーナ（三浦半島）" },
     ],
   },
 ];
@@ -42,7 +38,7 @@ export default function Fleet() {
               Fleet
             </p>
             <h2 className="mt-4 font-serif text-2xl text-bg-primary md:text-3xl">
-              オールジャパン — 日本が世界に誇る2隻
+              2艇のラインアップ
             </h2>
             <div className="mx-auto mt-4 h-px w-16 bg-gold" />
           </div>
@@ -71,7 +67,6 @@ export default function Fleet() {
                 </div>
 
                 <div className="flex flex-1 flex-col p-6 md:p-8">
-                  <p className="mb-1 text-xs text-text-muted">{ship.position}</p>
                   <h3 className="mb-6 font-display text-xl text-bg-primary">
                     {ship.name}
                   </h3>

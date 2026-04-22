@@ -46,7 +46,7 @@ const FEATURES = [
   },
   {
     num: "03",
-    title: "オールジャパンの体験",
+    title: "クルーザーの上でしかない体験",
     desc: "寿司職人、和牛BBQ、伝統工芸ディナー。乗るたびに特別な体験を。",
     icon: (
       <svg viewBox="0 0 32 32" fill="none" className="h-8 w-8">

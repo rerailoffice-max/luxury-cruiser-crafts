@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 export default function Hero() {
   return (
     <section className="relative flex h-screen items-center justify-center overflow-hidden">
-      <div className="absolute inset-0 bg-[url('/images/hero.jpg')] bg-cover bg-center" />
+      <div className="absolute inset-0 bg-[url('/images/hero-azimut.jpg')] bg-cover bg-center" />
       <div className="absolute inset-0 bg-gradient-to-b from-bg-primary/70 via-bg-primary/40 to-bg-primary" />
       <div className="absolute inset-0 bg-gradient-to-t from-bg-primary via-transparent to-navy/50" />
 
@@ -53,14 +53,6 @@ export default function Hero() {
           日本の美が、海の上で目を覚ます。
         </motion.p>
 
-        <motion.p
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.8, delay: 1.3 }}
-          className="mt-8 text-[9px] tracking-[0.35em] text-white/30"
-        >
-          LEXUS • YAMAHA • TOYOTA
-        </motion.p>
       </div>
 
       <motion.div

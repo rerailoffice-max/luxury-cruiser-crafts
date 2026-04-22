@@ -9,9 +9,9 @@ const SLIDES = [
   { src: "/images/concept-interior-01.png", alt: "クルーザー内装 — ラウンジ" },
   { src: "/images/concept-interior-02.png", alt: "クルーザー内装 — キャビン" },
   { src: "/images/concept-interior-03.jpeg", alt: "クルーザー内装 — デッキ" },
-  { src: "/images/concept-interior-04.png", alt: "Lexus LY650 — インテリア" },
-  { src: "/images/concept-interior-05.png", alt: "プレステージ F49 — サロン" },
-  { src: "/images/concept-interior-06.png", alt: "ポーナム35 — キャビン" },
+  { src: "/images/concept-interior-04.png", alt: "クルーザー内装 — メインサロン" },
+  { src: "/images/concept-interior-05.png", alt: "クルーザー内装 — フライブリッジ" },
+  { src: "/images/concept-interior-06.png", alt: "クルーザー内装 — マスターキャビン" },
 ];
 
 export default function Concept() {

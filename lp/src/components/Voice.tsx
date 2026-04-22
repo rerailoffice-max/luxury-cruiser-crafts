@@ -6,28 +6,28 @@ const OWNERS = [
   {
     initial: "T.M.",
     quote:
-      "週末、東京湾に浮かぶ自分だけの空間がある。それだけで月曜からの景色が変わる。",
-    title: "都内 IT企業 代表取締役",
+      "金箔の光が水面で揺れる。この船だけが見せる景色に、週末の価値が変わった。",
+    title: "IT企業 代表取締役",
     age: "50代",
-    ship: "Yamaha EXULT 43 オーナー",
+    ship: "Azimut Grande 27M オーナー",
     avatar: "T.M.",
   },
   {
     initial: "S.K.",
     quote:
-      "クルーザーの上で寿司職人が握る。この体験を知ったら、もう陸のレストランには戻れない。",
+      "患者様との会食も、クライアントとの接待も、この船が一歩上の記憶を残してくれる。",
     title: "美容外科クリニック 院長",
     age: "40代",
-    ship: "Yamaha EXULT 43 オーナー",
+    ship: "Azimut Grande 27M オーナー",
     avatar: "S.K.",
   },
   {
     initial: "H.Y.",
     quote:
-      "資産としての合理性と、伝統工芸に囲まれる贅沢。この両立は他にない。",
-    title: "不動産会社 会長",
-    age: "60代",
-    ship: "Lexus LY680 オーナー",
+      "伝統工芸に囲まれながら海を行く——所有する意味と、使う喜びを両立できた。",
+    title: "不動産投資会社 代表",
+    age: "50代",
+    ship: "Azimut Grande 27M オーナー",
     avatar: "H.Y.",
   },
 ];
