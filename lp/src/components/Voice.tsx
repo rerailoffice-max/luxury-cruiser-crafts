@@ -64,10 +64,13 @@ export default function Voice() {
                   <div className="mb-5 h-px w-10 bg-gradient-to-r from-gold/40 to-transparent" />
 
                   <div className="flex items-center gap-4">
-                    <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full border border-gold/25 bg-gradient-to-b from-gold/10 to-gold/[0.03]">
-                      <svg viewBox="0 0 40 40" fill="none" className="h-6 w-6 text-gold/50">
-                        <circle cx="20" cy="15" r="6" fill="currentColor" />
-                        <path d="M8 36c0-6.6 5.4-12 12-12s12 5.4 12 12" fill="currentColor" />
+                    <div className="relative flex h-14 w-14 flex-shrink-0 items-center justify-center rounded-full bg-bg-primary shadow-[inset_0_0_0_1px_rgba(201,169,98,0.4)]">
+                      <div className="absolute inset-[3px] rounded-full border border-gold/20" />
+                      <span className="relative font-display text-[13px] font-medium tracking-[0.08em] text-gold">
+                        {owner.initial}
+                      </span>
+                      <svg viewBox="0 0 12 12" className="absolute -bottom-0.5 left-1/2 h-1.5 w-1.5 -translate-x-1/2 text-gold/60" fill="currentColor">
+                        <polygon points="6,0 12,6 6,12 0,6" />
                       </svg>
                     </div>
                     <div>
