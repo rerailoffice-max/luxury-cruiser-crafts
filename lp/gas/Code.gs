@@ -172,33 +172,33 @@ function buildAdminHtml(data, interestLabel, timestamp) {
   }).join("");
 
   return [
-    '<!DOCTYPE html><html lang="ja"><head><meta charset="UTF-8"></head>',
+    '<!DOCTYPE html><html lang="ja"><head><meta charset="UTF-8"><meta name="color-scheme" content="light only"><meta name="supported-color-schemes" content="light"></head>',
     '<body style="margin:0;padding:0;background:' + BRAND.bgLight + ';font-family:-apple-system,BlinkMacSystemFont,\'Hiragino Sans\',\'Noto Sans JP\',\'Yu Gothic\',sans-serif;">',
       '<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background:' + BRAND.bgLight + ';padding:40px 20px;">',
         '<tr><td align="center">',
-          '<table role="presentation" width="560" cellspacing="0" cellpadding="0" border="0" style="background:#ffffff;max-width:560px;border-radius:2px;overflow:hidden;">',
-            // Header
-            '<tr><td style="background:' + BRAND.navy + ';padding:36px 40px;text-align:center;border-bottom:2px solid ' + BRAND.gold + ';">',
-              '<img src="' + CONFIG.LOGO_URL + '" alt="KOGEI CODE" width="140" style="height:auto;display:inline-block;max-width:140px;" />',
+          '<table role="presentation" width="560" cellspacing="0" cellpadding="0" border="0" style="background:#ffffff;max-width:560px;">',
+            // Header (light)
+            '<tr><td style="background:#ffffff;padding:40px 40px 24px 40px;text-align:center;">',
+              '<img src="' + CONFIG.LOGO_URL + '" alt="KOGEI CODE" width="96" style="height:auto;display:inline-block;max-width:96px;" />',
+              '<p style="margin:20px 0 0 0;color:' + BRAND.gold + ';font-size:10px;letter-spacing:0.45em;text-transform:uppercase;font-weight:500;">New Inquiry</p>',
+              '<div style="width:24px;height:1px;background:' + BRAND.gold + ';margin:16px auto 0 auto;"></div>',
             '</td></tr>',
             // Title
-            '<tr><td style="padding:40px 40px 8px 40px;">',
-              '<p style="margin:0 0 10px 0;color:' + BRAND.gold + ';font-size:11px;letter-spacing:0.35em;text-transform:uppercase;">New Inquiry</p>',
-              '<h1 style="margin:0;color:' + BRAND.navy + ';font-size:20px;font-weight:500;letter-spacing:0.03em;">新しいお問い合わせ: ' + escapeHtml(interestLabel) + '</h1>',
+            '<tr><td style="padding:24px 40px 8px 40px;text-align:center;">',
+              '<h1 style="margin:0;color:' + BRAND.navy + ';font-size:18px;font-weight:500;letter-spacing:0.04em;line-height:1.6;">新しいお問い合わせ</h1>',
+              '<p style="margin:12px 0 0 0;color:' + BRAND.textMuted + ';font-size:12px;letter-spacing:0.1em;">' + escapeHtml(interestLabel) + '</p>',
             '</td></tr>',
-            // Divider
-            '<tr><td style="padding:24px 40px 0 40px;"><div style="height:1px;background:linear-gradient(to right, transparent, ' + BRAND.gold + ', transparent);"></div></td></tr>',
             // Detail table
-            '<tr><td style="padding:8px 40px 32px 40px;">',
-              '<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="border-collapse:collapse;">' + rows + '</table>',
+            '<tr><td style="padding:32px 40px 24px 40px;">',
+              '<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="border-collapse:collapse;border-top:1px solid #eeeae0;">' + rows + '</table>',
             '</td></tr>',
             // Timestamp
-            '<tr><td style="padding:0 40px 32px 40px;color:' + BRAND.textMuted + ';font-size:11px;letter-spacing:0.08em;">',
+            '<tr><td style="padding:0 40px 40px 40px;color:' + BRAND.textMuted + ';font-size:11px;letter-spacing:0.08em;text-align:center;">',
               '受信日時: ' + escapeHtml(timestamp),
             '</td></tr>',
             // Footer
-            '<tr><td style="background:' + BRAND.navyDark + ';padding:22px 40px;text-align:center;color:#777;font-size:10px;letter-spacing:0.1em;">',
-              '&copy; 2026 KOGEI CODE. All rights reserved.',
+            '<tr><td style="padding:20px 40px;text-align:center;color:' + BRAND.textMuted + ';font-size:10px;letter-spacing:0.1em;border-top:1px solid #eeeae0;">',
+              '&copy; 2026 KOGEI CODE',
             '</td></tr>',
           '</table>',
         '</td></tr>',
@@ -257,37 +257,37 @@ function buildAutoReplyHtml(name, interest) {
   }
 
   return [
-    '<!DOCTYPE html><html lang="ja"><head><meta charset="UTF-8"></head>',
+    '<!DOCTYPE html><html lang="ja"><head><meta charset="UTF-8"><meta name="color-scheme" content="light only"><meta name="supported-color-schemes" content="light"></head>',
     '<body style="margin:0;padding:0;background:' + BRAND.bgLight + ';font-family:-apple-system,BlinkMacSystemFont,\'Hiragino Sans\',\'Noto Sans JP\',\'Yu Gothic\',sans-serif;">',
       '<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background:' + BRAND.bgLight + ';padding:40px 20px;">',
         '<tr><td align="center">',
           '<table role="presentation" width="560" cellspacing="0" cellpadding="0" border="0" style="background:#ffffff;max-width:560px;">',
-            // Header
-            '<tr><td style="background:' + BRAND.navy + ';padding:48px 40px 40px 40px;text-align:center;">',
-              '<img src="' + CONFIG.LOGO_URL + '" alt="KOGEI CODE" width="160" style="height:auto;display:inline-block;max-width:160px;" />',
+            // Header (light, minimal)
+            '<tr><td style="background:#ffffff;padding:48px 40px 32px 40px;text-align:center;">',
+              '<img src="' + CONFIG.LOGO_URL + '" alt="KOGEI CODE" width="120" style="height:auto;display:inline-block;max-width:120px;" />',
               '<p style="margin:24px 0 0 0;color:' + BRAND.gold + ';font-size:10px;letter-spacing:0.5em;text-transform:uppercase;">Thank You</p>',
-              '<div style="width:32px;height:1px;background:' + BRAND.gold + ';margin:20px auto 0 auto;opacity:0.6;"></div>',
+              '<div style="width:24px;height:1px;background:' + BRAND.gold + ';margin:16px auto 0 auto;"></div>',
             '</td></tr>',
             // Greeting
-            '<tr><td style="padding:48px 40px 8px 40px;">',
+            '<tr><td style="padding:16px 40px 4px 40px;text-align:center;">',
               '<p style="margin:0;color:' + BRAND.navy + ';font-size:20px;font-weight:500;letter-spacing:0.05em;">' + escapeHtml(name) + ' 様</p>',
             '</td></tr>',
             // Body
-            '<tr><td style="padding:24px 40px 8px 40px;">',
+            '<tr><td style="padding:24px 48px 8px 48px;">',
               '<p style="margin:0 0 20px 0;color:' + BRAND.text + ';font-size:14px;line-height:2;">',
                 'この度は KOGEI CODE にご関心をお寄せいただき、<br>誠にありがとうございます。',
               '</p>',
               '<p style="margin:0;color:' + BRAND.text + ';font-size:14px;line-height:2;">' + nextStep + '</p>',
             '</td></tr>',
             // Tagline card
-            '<tr><td style="padding:32px 40px 48px 40px;">',
-              '<div style="padding:28px 32px;background:' + BRAND.bgLight + ';border-left:3px solid ' + BRAND.gold + ';">',
-                '<p style="margin:0 0 8px 0;color:' + BRAND.gold + ';font-size:10px;letter-spacing:0.4em;text-transform:uppercase;">KOGEI CODE</p>',
+            '<tr><td style="padding:32px 48px 48px 48px;">',
+              '<div style="padding:24px 28px;background:' + BRAND.bgLight + ';border-left:2px solid ' + BRAND.gold + ';">',
+                '<p style="margin:0 0 6px 0;color:' + BRAND.gold + ';font-size:10px;letter-spacing:0.4em;text-transform:uppercase;">KOGEI CODE</p>',
                 '<p style="margin:0;color:' + BRAND.navy + ';font-size:14px;line-height:1.9;font-weight:500;letter-spacing:0.05em;">日本の美が、海の上で目を覚ます。</p>',
               '</div>',
             '</td></tr>',
-            // Footer
-            '<tr><td style="background:' + BRAND.navyDark + ';padding:28px 40px;text-align:center;color:#777;font-size:10px;line-height:1.8;letter-spacing:0.06em;">',
+            // Footer (light)
+            '<tr><td style="padding:20px 40px;text-align:center;color:' + BRAND.textMuted + ';font-size:10px;line-height:1.9;letter-spacing:0.08em;border-top:1px solid #eeeae0;">',
               '※ 本メールは自動送信です。<br>',
               'ご不明点がございましたら、このメールにご返信ください。',
             '</td></tr>',
