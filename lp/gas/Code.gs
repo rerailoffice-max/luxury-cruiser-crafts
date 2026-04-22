@@ -3,9 +3,15 @@
 // ============================================================
 
 // ── 設定 ──────────────────────────────────────────────────────
-// ADMIN_EMAIL は複数宛に送る場合カンマ区切りで列挙可 (例: "a@x.com, b@x.com, c@x.com")
+// ADMIN_EMAIL: contact@kogeicode.info が代表受信アドレス。
+// ここから下記メンバーへメールサーバ側で転送される想定:
+//   - 植村  : m.uemura@kogeicode.info
+//   - 伊石  : y.iseki@kogeicode.info
+//   - 永宮  : m.nagamiya@kogeicode.info
+//   - 大城  : y.oshiro@kogeicode.info
+// 直接複数宛にしたい場合はカンマ区切りで列挙可 (例: "a@x.com, b@x.com")
 var CONFIG = {
-  ADMIN_EMAIL: "REPLACE_WITH_ADMIN_EMAILS",     // 管理者通知先（要変更 / カンマ区切りで複数可）
+  ADMIN_EMAIL: "contact@kogeicode.info",
   SHEET_NAME: "お問い合わせ",
   FROM_NAME: "KOGEI CODE",
 };
