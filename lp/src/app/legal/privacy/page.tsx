@@ -22,7 +22,7 @@ export default function PrivacyPage() {
       <section>
         <h2 className="mb-4 text-base font-medium text-white/80">2. 個人情報の収集</h2>
         <p>
-          当社は、お問い合わせフォーム、資料請求、ブリーフィング予約等を通じて、以下の個人情報を収集する場合があります。
+          当社は、お問い合わせフォーム、ブリーフィング予約等を通じて、以下の個人情報を収集する場合があります。
         </p>
         <ul className="mt-3 list-inside list-disc space-y-1 text-white/50">
           <li>氏名</li>
@@ -39,7 +39,6 @@ export default function PrivacyPage() {
         <ul className="mt-3 list-inside list-disc space-y-1 text-white/50">
           <li>お問い合わせへの回答・対応</li>
           <li>プライベートブリーフィングのご案内・日程調整</li>
-          <li>資料の送付</li>
           <li>サービスに関する情報提供</li>
           <li>サービス改善のための統計・分析（個人を特定しない形式）</li>
         </ul>

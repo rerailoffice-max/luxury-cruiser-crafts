@@ -23,6 +23,7 @@ const notoSerif = Noto_Serif_JP({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://cruiser.kogeicode.com"),
   title: "KOGEI CODE — 日本の美が、海の上で目を覚ます。",
   description:
     "Azimut Grande 27M を核とするラグジュアリークルーザー共同所有プログラム。伝統工芸の美と、海上での特別な体験を。",
