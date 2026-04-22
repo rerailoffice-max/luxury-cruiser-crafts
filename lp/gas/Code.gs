@@ -8,13 +8,11 @@ var CONFIG = {
   ADMIN_EMAIL: "REPLACE_WITH_ADMIN_EMAILS",     // 管理者通知先（要変更 / カンマ区切りで複数可）
   SHEET_NAME: "お問い合わせ",
   FROM_NAME: "KOGEI CODE",
-  DOCUMENT_URL: "REPLACE_WITH_DOCUMENT_URL",    // 資料PDF等のURL（要変更）
 };
 
 // ── 関心内容ラベル変換 ────────────────────────────────────────
 var INTEREST_LABELS = {
   briefing: "プライベートブリーフィング",
-  document: "資料請求",
   visit: "マリーナ視察",
   other: "その他",
 };
@@ -127,15 +125,6 @@ function sendAutoReply(data) {
     bodyParts.push(
       "プライベートブリーフィングのご希望を承りました。",
       "担当者より 2 営業日以内に日程をご連絡いたします。",
-      ""
-    );
-  } else if (interest === "document") {
-    bodyParts.push(
-      "資料請求を承りました。",
-      "下記リンクよりご覧いただけます。",
-      "",
-      "▼ 資料ダウンロード",
-      CONFIG.DOCUMENT_URL,
       ""
     );
   } else if (interest === "visit") {

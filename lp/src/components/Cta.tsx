@@ -80,7 +80,7 @@ export default function Cta() {
         </FadeIn>
 
         <FadeIn delay={0.4}>
-          <div className="mt-14 flex flex-col items-center gap-5 sm:flex-row sm:justify-center">
+          <div className="mt-14 flex justify-center">
             <motion.a
               href="#contact-form"
               whileHover={{ scale: 1.03 }}
@@ -88,14 +88,6 @@ export default function Cta() {
               className="group relative inline-flex items-center justify-center overflow-hidden rounded-sm bg-gold px-10 py-4 text-sm font-medium tracking-[0.15em] text-bg-primary transition-all duration-500 hover:bg-gold-light hover:shadow-[0_0_40px_rgba(201,169,98,0.25)]"
             >
               <span className="relative z-10">ブリーフィングを予約する</span>
-            </motion.a>
-            <motion.a
-              href="#contact-form"
-              whileHover={{ scale: 1.03 }}
-              whileTap={{ scale: 0.97 }}
-              className="inline-flex items-center justify-center rounded-sm border border-gold/30 px-10 py-4 text-sm font-medium tracking-[0.15em] text-gold transition-all duration-500 hover:border-gold hover:bg-gold/[0.06] hover:shadow-[0_0_30px_rgba(201,169,98,0.1)]"
-            >
-              資料を請求する
             </motion.a>
           </div>
         </FadeIn>
@@ -215,9 +207,6 @@ export default function Cta() {
                       </option>
                       <option value="briefing" className="bg-bg-primary">
                         プライベートブリーフィング
-                      </option>
-                      <option value="document" className="bg-bg-primary">
-                        資料請求
                       </option>
                       <option value="visit" className="bg-bg-primary">
                         マリーナ視察
