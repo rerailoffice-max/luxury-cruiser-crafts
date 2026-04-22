@@ -179,7 +179,7 @@ function buildAdminHtml(data, interestLabel, timestamp) {
           '<table role="presentation" width="560" cellspacing="0" cellpadding="0" border="0" style="background:#ffffff;max-width:560px;">',
             // Header (light)
             '<tr><td style="background:#ffffff;padding:40px 40px 24px 40px;text-align:center;">',
-              '<img src="' + CONFIG.LOGO_URL + '" alt="KOGEI CODE" width="96" style="height:auto;display:inline-block;max-width:96px;" />',
+              '<img src="' + CONFIG.LOGO_URL + '" alt="KOGEI CODE" width="72" style="height:auto;display:inline-block;max-width:72px;" />',
               '<p style="margin:20px 0 0 0;color:' + BRAND.gold + ';font-size:10px;letter-spacing:0.45em;text-transform:uppercase;font-weight:500;">New Inquiry</p>',
               '<div style="width:24px;height:1px;background:' + BRAND.gold + ';margin:16px auto 0 auto;"></div>',
             '</td></tr>',
@@ -264,7 +264,7 @@ function buildAutoReplyHtml(name, interest) {
           '<table role="presentation" width="560" cellspacing="0" cellpadding="0" border="0" style="background:#ffffff;max-width:560px;">',
             // Header (light, minimal)
             '<tr><td style="background:#ffffff;padding:48px 40px 32px 40px;text-align:center;">',
-              '<img src="' + CONFIG.LOGO_URL + '" alt="KOGEI CODE" width="120" style="height:auto;display:inline-block;max-width:120px;" />',
+              '<img src="' + CONFIG.LOGO_URL + '" alt="KOGEI CODE" width="88" style="height:auto;display:inline-block;max-width:88px;" />',
               '<p style="margin:24px 0 0 0;color:' + BRAND.gold + ';font-size:10px;letter-spacing:0.5em;text-transform:uppercase;">Thank You</p>',
               '<div style="width:24px;height:1px;background:' + BRAND.gold + ';margin:16px auto 0 auto;"></div>',
             '</td></tr>',
