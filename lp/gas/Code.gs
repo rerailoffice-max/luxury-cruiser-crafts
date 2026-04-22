@@ -60,8 +60,40 @@ function doPost(e) {
   }
 }
 
-// ── CORS プリフライト対応 ──────────────────────────────────────
-function doGet() {
+// ── GET: ヘルスチェック + スプレッドシート紐付け診断 ─────────
+// ?info=1 でスプレッドシートのID/URL/名前を返す（トラブルシュート用）
+function doGet(e) {
+  var params = (e && e.parameter) || {};
+  if (params.info === "1") {
+    try {
+      var ss = SpreadsheetApp.getActiveSpreadsheet();
+      var payload;
+      if (ss) {
+        payload = {
+          status: "ok",
+          bound: true,
+          spreadsheet_id: ss.getId(),
+          spreadsheet_url: ss.getUrl(),
+          spreadsheet_name: ss.getName(),
+          sheet_name: CONFIG.SHEET_NAME,
+          owner_hint: Session.getEffectiveUser().getEmail(),
+        };
+      } else {
+        payload = {
+          status: "ok",
+          bound: false,
+          note: "このスクリプトはスプレッドシートに紐付いていない（standalone）",
+          owner_hint: Session.getEffectiveUser().getEmail(),
+        };
+      }
+      return ContentService.createTextOutput(JSON.stringify(payload, null, 2))
+        .setMimeType(ContentService.MimeType.JSON);
+    } catch (err) {
+      return ContentService.createTextOutput(
+        JSON.stringify({ status: "error", message: err.message })
+      ).setMimeType(ContentService.MimeType.JSON);
+    }
+  }
   return ContentService.createTextOutput(
     JSON.stringify({ status: "ok" })
   ).setMimeType(ContentService.MimeType.JSON);
