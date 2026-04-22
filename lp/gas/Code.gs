@@ -76,14 +76,12 @@ function doGet(e) {
           spreadsheet_url: ss.getUrl(),
           spreadsheet_name: ss.getName(),
           sheet_name: CONFIG.SHEET_NAME,
-          owner_hint: Session.getEffectiveUser().getEmail(),
         };
       } else {
         payload = {
           status: "ok",
           bound: false,
           note: "このスクリプトはスプレッドシートに紐付いていない（standalone）",
-          owner_hint: Session.getEffectiveUser().getEmail(),
         };
       }
       return ContentService.createTextOutput(JSON.stringify(payload, null, 2))
