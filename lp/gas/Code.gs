@@ -18,8 +18,8 @@ var CONFIG = {
   ADMIN_EMAIL: "contact@kogeicode.info",
   SHEET_NAME: "お問い合わせ",
   FROM_NAME: "KOGEI CODE",
-  LOGO_URL: "https://kogei-code-lp.vercel.app/images/logo.png",
-  SITE_URL: "https://kogei-code-lp.vercel.app/",
+  LOGO_URL: "https://kogeicode.com/images/logo-mark.png",
+  SITE_URL: "https://kogeicode.com/",
 };
 
 // ── ブランドカラー ────────────────────────────────────────────
